@@ -153,14 +153,17 @@ class TableRenderer:
     def __init__(self, data: List[Item]):
         self.data = data
 
-    def render(self, style_id:int=3):
+    def render(self, style_id:int=3, undefined_loc:bool=False) -> str:
         # Implement the rendering logic here
         if style_id not in [1,2,3]:
             style_id = 3
         style = getattr(self, f"_css_{style_id}")
         html_content = ""
         entities = set()
+        counter = 0
         for id, item in enumerate(self.data):
+            if undefined_loc and item.location != "":
+                continue
             html_content += self._template.format(
                 id=id+1,
                 type=item.type,
@@ -169,5 +172,6 @@ class TableRenderer:
                 description=item.description
             )
             entities.add(item.entity)
+            counter += 1
         html_content += "</tbody>"
-        return style + self._html_content.format(entity_count=len(entities), change_count=len(self.data)) + html_content
+        return style + self._html_content.format(entity_count=len(entities), change_count=counter) + html_content

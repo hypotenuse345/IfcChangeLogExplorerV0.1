@@ -44,6 +44,7 @@ grid = st_grid([2,2,1])
 filter_by_entity = grid.text_input("Entity filter", "")
 mode = grid.radio("change_mode", ["all", "create", "delete", "edit"], horizontal=True)
 style_id = grid.radio("style", [1, 2, 3], horizontal=True)
+undefined_loc = st.checkbox("undefined location only", value=False)
 
 if st.session_state.get("results", None) is None or st.session_state.get("mode", None) != mode or st.session_state.get("filter_by_entity", None) != filter_by_entity:
     st.session_state["mode"] = mode
@@ -54,4 +55,4 @@ selected_entities = st.multiselect("entities", sorted(list(set([item.entity_labe
 selected_results = [item for item in st.session_state["results"] if item.entity_label in selected_entities] if selected_entities else st.session_state["results"]
 renderer = TableRenderer(selected_results)
 
-st.markdown(renderer.render(style_id=style_id), unsafe_allow_html=True)
+st.markdown(renderer.render(style_id=style_id, undefined_loc=undefined_loc), unsafe_allow_html=True)
