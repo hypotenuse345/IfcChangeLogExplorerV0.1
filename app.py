@@ -28,6 +28,7 @@ with st.sidebar:
         G.parse(f"./outputs/change_log_ttls/{option.lower()}_change_log.ttl")
         st.session_state["graph"] = G
         st.session_state["ifc_schema_version"] = option
+        st.session_state["results"] = None
         # st.success(f"Loaded {option} data")
     st.metric(label="Number of triples", value=len(st.session_state["graph"]))
 
