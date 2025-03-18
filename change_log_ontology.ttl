@@ -1,0 +1,172 @@
+@prefix clog: <http://www.semantic.org/zeyupan/ontologies/change_log_ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semantic.org/zeyupan/ontologies/change_log_ontology> a owl:Ontology ;
+    rdfs:label "Change Log Ontology" ;
+    dcterms:creator ( [ a schema:Person ;
+                schema:email "panzeyu@sjtu.edu.cn" ;
+                schema:name "Pan Zeyu" ] ) ;
+    dcterms:issued "2025-03-17" ;
+    dcterms:modified "2025-03-17" .
+
+clog:AbstractChangeLoc a owl:Class ;
+    rdfs:label "AbstractChangeLocation" ;
+    rdfs:comment "AbstractChangeLocation is a class that represents the abstract location of a change." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:ApplicabilityChangeLoc a owl:Class ;
+    rdfs:label "ApplicabilityChangeLocation" ;
+    rdfs:comment "ApplicabilityChangeLocation is a class that represents the location of a change in an application." ;
+    rdfs:subClassOf clog:PSetChangeLocation .
+
+clog:Create a owl:Class ;
+    rdfs:label "Create" ;
+    clog:data_feather "plus-square" ;
+    rdfs:comment "Create is a change that adds a new element to the ontology." ;
+    rdfs:subClassOf clog:BaseChange .
+
+clog:Delete a owl:Class ;
+    rdfs:label "Delete" ;
+    clog:data_feather "x-square" ;
+    rdfs:comment "Delete is a change that removes an element from the ontology." ;
+    rdfs:subClassOf clog:BaseChange .
+
+clog:DeprecatedChangeLoc a owl:Class ;
+    rdfs:label "DeprecatedChangeLocation" ;
+    rdfs:comment "DeprecatedChangeLocation is a class that represents the location of a change in a deprecated element." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:DirectAttributeChangeLoc a owl:Class ;
+    rdfs:label "DirectAttributeChangeLocation" ;
+    rdfs:comment "DirectAttributeChangeLocation is a class that represents the location of a change in an attribute." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:InverseAttributeChangeLoc a owl:Class ;
+    rdfs:label "InverseAttributeChangeLocation" ;
+    rdfs:comment "InverseAttributeChangeLocation is a class that represents the location of a change in an inverse attribute." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:ItemChangeLoc a owl:Class ;
+    rdfs:label "ItemChangeLocation" ;
+    rdfs:comment "ItemChangeLocation is a class that represents the location of a change in an item." ;
+    rdfs:subClassOf clog:EnumChangeLocation .
+
+clog:PropertyChangeLoc a owl:Class ;
+    rdfs:label "PropertyChangeLocation" ;
+    rdfs:comment "PropertyChangeLocation is a class that represents the location of a change in a property." ;
+    rdfs:subClassOf clog:PSetChangeLocation .
+
+clog:SupertypeChangeLoc a owl:Class ;
+    rdfs:label "SupertypeChangeLocation" ;
+    rdfs:comment "SupertypeChangeLocation is a class that represents the location of a change in a supertype." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:TypeChangeLoc a owl:Class ;
+    rdfs:label "TypeChangeLocation" ;
+    rdfs:comment "TypeChangeLocation is a class that represents the location of a change in a type." ;
+    rdfs:subClassOf clog:PSetChangeLocation .
+
+clog:UndefinedChangeLoc a owl:Class ;
+    rdfs:label "UndefinedChangeLocation" ;
+    rdfs:comment "UndefinedChangeLocation is a class that represents the location of a change that is not defined." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:UniqueRuleChangeLoc a owl:Class ;
+    rdfs:label "UniqueRuleChangeLocation" ;
+    rdfs:comment "UniqueRuleChangeLocation is a class that represents the location of a change in a where rule." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:Update a owl:Class ;
+    rdfs:label "Update" ;
+    clog:data_feather "edit" ;
+    rdfs:comment "Update is a change that modifies an element in the ontology." ;
+    rdfs:subClassOf clog:BaseChange .
+
+clog:WhereRuleChangeLoc a owl:Class ;
+    rdfs:label "WhereRuleChangeLocation" ;
+    rdfs:comment "WhereRuleChangeLocation is a class that represents the location of a change in a where rule." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:changed a owl:DatatypeProperty ;
+    rdfs:label "changed" ;
+    rdfs:comment "changed is a property that represents the changed concept." ;
+    rdfs:domain clog:ChangeLocation ;
+    rdfs:range xsd:string .
+
+clog:data_feather a owl:DatatypeProperty ;
+    rdfs:label "data feather" ;
+    rdfs:comment "data feather is a property that represents the data feather of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range xsd:string .
+
+clog:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:comment "description is a property that represents the description of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range xsd:string .
+
+clog:isChangeOf a owl:ObjectProperty ;
+    rdfs:label "isChangeOf" ;
+    rdfs:comment "isChangeOf is a property that represents the concept of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range clog:SchematicConcept ;
+    owl:inverseOf clog:hasChange .
+
+clog:isLocationOf a owl:ObjectProperty ;
+    rdfs:label "isLocationOf" ;
+    rdfs:comment "isLocationOf is a property that represents the location of a change." ;
+    rdfs:domain clog:ChangeLocation ;
+    rdfs:range clog:BaseChange ;
+    owl:inverseOf clog:hasLocation .
+
+clog:link a owl:DatatypeProperty ;
+    rdfs:label "link" ;
+    rdfs:comment "link is a property that represents the link of a concept." ;
+    rdfs:domain clog:SchematicConcept ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+clog:EnumChangeLocation a owl:Class ;
+    rdfs:label "EnumChangeLocation" ;
+    rdfs:comment "EnumChangeLocation is a class that represents the change location of an enumeration." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:hasChange a owl:ObjectProperty ;
+    rdfs:label "hasChange" ;
+    rdfs:comment "hasChange is a property that represents the change of a concept." ;
+    rdfs:domain clog:SchematicConcept ;
+    rdfs:range clog:BaseChange .
+
+clog:hasLocation a owl:ObjectProperty ;
+    rdfs:label "hasLocation" ;
+    rdfs:comment "hasLocation is a property that represents the location of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range clog:ChangeLocation .
+
+clog:PSetChangeLocation a owl:Class ;
+    rdfs:label "PSetChangeLocation" ;
+    rdfs:comment "PSetChangeLocation is a class that represents the change location of a property set template." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:SchematicConcept a owl:Class ;
+    rdfs:label "Concept" ;
+    rdfs:comment "Concept is a class that represents a concept in the ontology." .
+
+clog:EntityChangeLocation a owl:Class ;
+    rdfs:label "EntityChangeLocation" ;
+    rdfs:comment "EntityChangeLocation is a class that represents the change location of an entity." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:ChangeLocation a owl:Class ;
+    rdfs:label "ChangeLocation" ;
+    rdfs:comment "ChangeLocation is a class that represents the location of a change." .
+
+clog:BaseChange a owl:Class ;
+    rdfs:label "BaseChange" ;
+    rdfs:comment "BaseChange is the base class for all changes." .
+

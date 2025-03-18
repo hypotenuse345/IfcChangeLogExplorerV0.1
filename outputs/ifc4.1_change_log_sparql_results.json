@@ -1,0 +1,164 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "\n\n```sparql\n# 查询所有被变更的概念\nSELECT DISTINCT ?name ?link\nWHERE { \n    ?s a/rdfs:subClassOf* clog:SchematicConcept;\n       rdfs:label ?name.\n    OPTIONAL {\n        ?s clog:link ?link.\n    }\n}\n```",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "{\n    \"name\":{\n        \"0\":\"IfcAlignment\",\n        \"1\":\"IfcAlignment2DHorizontal\",\n        \"2\":\"IfcAlignment2DHorizontalSegment\",\n        \"3\":\"IfcAlignment2DSegment\",\n        \"4\":\"IfcAlignment2DVerSegCircularArc\",\n        \"5\":\"IfcAlignment2DVerSegLine\",\n        \"6\":\"IfcAlignment2DVerSegParabolicArc\",\n        \"7\":\"IfcAlignment2DVertical\",\n        \"8\":\"IfcAlignment2DVerticalSegment\",\n        \"9\":\"IfcAlignmentCurve\",\n        \"10\":\"IfcAlignmentTypeEnum\",\n        \"11\":\"IfcCartesianPointList2D\",\n        \"12\":\"IfcCartesianPointList3D\",\n        \"13\":\"IfcCircularArcSegment2D\",\n        \"14\":\"IfcCurveDim\",\n        \"15\":\"IfcCurveSegment2D\",\n        \"16\":\"IfcDistanceExpression\",\n        \"17\":\"IfcGrid\",\n        \"18\":\"IfcLineSegment2D\",\n        \"19\":\"IfcLinearPlacement\",\n        \"20\":\"IfcLinearPositioningElement\",\n        \"21\":\"IfcOffsetCurve\",\n        \"22\":\"IfcOffsetCurve2D\",\n        \"23\":\"IfcOffsetCurve3D\",\n        \"24\":\"IfcOffsetCurveByDistances\",\n        \"25\":\"IfcOrientationExpression\",\n        \"26\":\"IfcPositioningElement\",\n        \"27\":\"IfcPresentationLayerWithStyle\",\n        \"28\":\"IfcReferent\",\n        \"29\":\"IfcReferentTypeEnum\",\n        \"30\":\"IfcResourceObjectSelect\",\n        \"31\":\"IfcSectionedSolid\",\n        \"32\":\"IfcSectionedSolidHorizontal\",\n        \"33\":\"IfcShapeAspect\",\n        \"34\":\"IfcTransitionCurveSegment2D\",\n        \"35\":\"IfcTransitionCurveType\",\n        \"36\":\"IfcTriangulatedIrregularNetwork\",\n        \"37\":\"Pset_ActuatorTypeCommon\",\n        \"38\":\"Pset_AirToAirHeatRecoveryTypeCommon\",\n        \"39\":\"Pset_ElectricFlowStorageDevicePHistory\",\n        \"40\":\"Pset_ElectricFlowStorageDeviceTypeCommon\",\n        \"41\":\"Pset_ElementComponentCommon\",\n        \"42\":\"Pset_MechanicalFastenerCommon\",\n        \"43\":\"Pset_PileCommon\",\n        \"44\":\"Pset_ReinforcingBarCommon\",\n        \"45\":\"Pset_ReinforcingMeshCommon\",\n        \"46\":\"Pset_SolarDeviceTypeCommon\",\n        \"47\":\"Pset_TankOccurrence\",\n        \"48\":\"Pset_TankPHistory\",\n        \"49\":\"Pset_TendonAnchorCommon\",\n        \"50\":\"Pset_TendonCommon\",\n        \"51\":\"Pset_TransformerTypeCommon\"\n    },\n    \"link\":{\n        \"0\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcAlignment.htm\",\n        \"1\":null,\n        \"2\":null,\n        \"3\":null,\n        \"4\":null,\n        \"5\":null,\n        \"6\":null,\n        \"7\":null,\n        \"8\":null,\n        \"9\":null,\n        \"10\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcAlignmentTypeEnum.htm\",\n        \"11\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcCartesianPointList2D.htm\",\n        \"12\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcCartesianPointList3D.htm\",\n        \"13\":null,\n        \"14\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcCurveDim.htm\",\n        \"15\":null,\n        \"16\":null,\n        \"17\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcGrid.htm\",\n        \"18\":null,\n        \"19\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcLinearPlacement.htm\",\n        \"20\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcLinearPositioningElement.htm\",\n        \"21\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurve.htm\",\n        \"22\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurve2D.htm\",\n        \"23\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurve3D.htm\",\n        \"24\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurveByDistances.htm\",\n        \"25\":null,\n        \"26\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcPositioningElement.htm\",\n        \"27\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcPresentationLayerWithStyle.htm\",\n        \"28\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcReferent.htm\",\n        \"29\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcReferentTypeEnum.htm\",\n        \"30\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcResourceObjectSelect.htm\",\n        \"31\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcSectionedSolid.htm\",\n        \"32\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcSectionedSolidHorizontal.htm\",\n        \"33\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcShapeAspect.htm\",\n        \"34\":null,\n        \"35\":null,\n        \"36\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcTriangulatedIrregularNetwork.htm\",\n        \"37\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ActuatorTypeCommon.htm\",\n        \"38\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_AirToAirHeatRecoveryTypeCommon.htm\",\n        \"39\":null,\n        \"40\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ElectricFlowStorageDeviceTypeCommon.htm\",\n        \"41\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ElementComponentCommon.htm\",\n        \"42\":null,\n        \"43\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_PileCommon.htm\",\n        \"44\":null,\n        \"45\":null,\n        \"46\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_SolarDeviceTypeCommon.htm\",\n        \"47\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_TankOccurrence.htm\",\n        \"48\":null,\n        \"49\":null,\n        \"50\":null,\n        \"51\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_TransformerTypeCommon.htm\"\n    }\n}",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "\n\n```sparql\n# 查询所有被变更的属性集\nSELECT DISTINCT ?name ?link\nWHERE { \n    ?s a/rdfs:subClassOf* clog:SchematicConcept;\n       rdfs:label ?name.\n    OPTIONAL {\n        ?s clog:link ?link.\n    }\n    FILTER (STRSTARTS(?name, \"Pset_\") || STRSTARTS(?name, \"Qto_\"))\n}\n```",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "{\n    \"name\":{\n        \"0\":\"Pset_ActuatorTypeCommon\",\n        \"1\":\"Pset_AirToAirHeatRecoveryTypeCommon\",\n        \"2\":\"Pset_ElectricFlowStorageDevicePHistory\",\n        \"3\":\"Pset_ElectricFlowStorageDeviceTypeCommon\",\n        \"4\":\"Pset_ElementComponentCommon\",\n        \"5\":\"Pset_MechanicalFastenerCommon\",\n        \"6\":\"Pset_PileCommon\",\n        \"7\":\"Pset_ReinforcingBarCommon\",\n        \"8\":\"Pset_ReinforcingMeshCommon\",\n        \"9\":\"Pset_SolarDeviceTypeCommon\",\n        \"10\":\"Pset_TankOccurrence\",\n        \"11\":\"Pset_TankPHistory\",\n        \"12\":\"Pset_TendonAnchorCommon\",\n        \"13\":\"Pset_TendonCommon\",\n        \"14\":\"Pset_TransformerTypeCommon\"\n    },\n    \"link\":{\n        \"0\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ActuatorTypeCommon.htm\",\n        \"1\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_AirToAirHeatRecoveryTypeCommon.htm\",\n        \"2\":null,\n        \"3\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ElectricFlowStorageDeviceTypeCommon.htm\",\n        \"4\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ElementComponentCommon.htm\",\n        \"5\":null,\n        \"6\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_PileCommon.htm\",\n        \"7\":null,\n        \"8\":null,\n        \"9\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_SolarDeviceTypeCommon.htm\",\n        \"10\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_TankOccurrence.htm\",\n        \"11\":null,\n        \"12\":null,\n        \"13\":null,\n        \"14\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_TransformerTypeCommon.htm\"\n    }\n}",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "\n\n```sparql\n# 查询所有目前仍在IFC4.3.2中的被变更的概念\nSELECT DISTINCT ?name ?link\nWHERE { \n    ?s a/rdfs:subClassOf* clog:SchematicConcept;\n       rdfs:label ?name;\n       clog:link ?link.\n}\n```",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "{\n    \"name\":{\n        \"0\":\"IfcAlignment\",\n        \"1\":\"IfcAlignmentTypeEnum\",\n        \"2\":\"IfcCartesianPointList2D\",\n        \"3\":\"IfcCartesianPointList3D\",\n        \"4\":\"IfcCurveDim\",\n        \"5\":\"IfcGrid\",\n        \"6\":\"IfcLinearPlacement\",\n        \"7\":\"IfcLinearPositioningElement\",\n        \"8\":\"IfcOffsetCurve\",\n        \"9\":\"IfcOffsetCurve2D\",\n        \"10\":\"IfcOffsetCurve3D\",\n        \"11\":\"IfcOffsetCurveByDistances\",\n        \"12\":\"IfcPositioningElement\",\n        \"13\":\"IfcPresentationLayerWithStyle\",\n        \"14\":\"IfcReferent\",\n        \"15\":\"IfcReferentTypeEnum\",\n        \"16\":\"IfcResourceObjectSelect\",\n        \"17\":\"IfcSectionedSolid\",\n        \"18\":\"IfcSectionedSolidHorizontal\",\n        \"19\":\"IfcShapeAspect\",\n        \"20\":\"IfcTriangulatedIrregularNetwork\",\n        \"21\":\"Pset_ActuatorTypeCommon\",\n        \"22\":\"Pset_AirToAirHeatRecoveryTypeCommon\",\n        \"23\":\"Pset_ElectricFlowStorageDeviceTypeCommon\",\n        \"24\":\"Pset_ElementComponentCommon\",\n        \"25\":\"Pset_PileCommon\",\n        \"26\":\"Pset_SolarDeviceTypeCommon\",\n        \"27\":\"Pset_TankOccurrence\",\n        \"28\":\"Pset_TransformerTypeCommon\"\n    },\n    \"link\":{\n        \"0\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcAlignment.htm\",\n        \"1\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcAlignmentTypeEnum.htm\",\n        \"2\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcCartesianPointList2D.htm\",\n        \"3\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcCartesianPointList3D.htm\",\n        \"4\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcCurveDim.htm\",\n        \"5\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcGrid.htm\",\n        \"6\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcLinearPlacement.htm\",\n        \"7\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcLinearPositioningElement.htm\",\n        \"8\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurve.htm\",\n        \"9\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurve2D.htm\",\n        \"10\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurve3D.htm\",\n        \"11\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcOffsetCurveByDistances.htm\",\n        \"12\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcPositioningElement.htm\",\n        \"13\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcPresentationLayerWithStyle.htm\",\n        \"14\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcReferent.htm\",\n        \"15\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcReferentTypeEnum.htm\",\n        \"16\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcResourceObjectSelect.htm\",\n        \"17\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcSectionedSolid.htm\",\n        \"18\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcSectionedSolidHorizontal.htm\",\n        \"19\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcShapeAspect.htm\",\n        \"20\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/IfcTriangulatedIrregularNetwork.htm\",\n        \"21\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ActuatorTypeCommon.htm\",\n        \"22\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_AirToAirHeatRecoveryTypeCommon.htm\",\n        \"23\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ElectricFlowStorageDeviceTypeCommon.htm\",\n        \"24\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_ElementComponentCommon.htm\",\n        \"25\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_PileCommon.htm\",\n        \"26\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_SolarDeviceTypeCommon.htm\",\n        \"27\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_TankOccurrence.htm\",\n        \"28\":\"https:\\/\\/ifc43-docs.standards.buildingsmart.org\\/IFC\\/RELEASE\\/IFC4x3\\/HTML\\/lexical\\/Pset_TransformerTypeCommon.htm\"\n    }\n}",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "\n\n```sparql\n# 查询变更总数\nSELECT (COUNT(DISTINCT ?s) AS ?count)\nWHERE { \n    ?s a/rdfs:subClassOf+ clog:BaseChange.\n}\n```",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "{\n    \"count\":{\n        \"0\":\"66\"\n    }\n}",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "\n\n```sparql\n# 查询每个被变更的概念的变更总数\nSELECT ?name (COUNT(DISTINCT ?change) AS ?count)\nWHERE { \n    ?change a/rdfs:subClassOf+ clog:BaseChange.\n    ?concept a clog:SchematicConcept;\n        clog:hasChange ?change;\n        rdfs:label ?name.\n}\nGROUP BY ?name\nORDER BY DESC(?count)\n```",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "{\n    \"name\":{\n        \"0\":\"Pset_ElectricFlowStorageDeviceTypeCommon\",\n        \"1\":\"IfcGrid\",\n        \"2\":\"Pset_SolarDeviceTypeCommon\",\n        \"3\":\"IfcOffsetCurve2D\",\n        \"4\":\"IfcOffsetCurve3D\",\n        \"5\":\"IfcPresentationLayerWithStyle\",\n        \"6\":\"Pset_ActuatorTypeCommon\",\n        \"7\":\"Pset_AirToAirHeatRecoveryTypeCommon\",\n        \"8\":\"Pset_ElementComponentCommon\",\n        \"9\":\"Pset_TransformerTypeCommon\",\n        \"10\":\"IfcAlignment\",\n        \"11\":\"IfcAlignment2DHorizontal\",\n        \"12\":\"IfcAlignment2DHorizontalSegment\",\n        \"13\":\"IfcAlignment2DSegment\",\n        \"14\":\"IfcAlignment2DVerSegCircularArc\",\n        \"15\":\"IfcAlignment2DVerSegLine\",\n        \"16\":\"IfcAlignment2DVerSegParabolicArc\",\n        \"17\":\"IfcAlignment2DVertical\",\n        \"18\":\"IfcAlignment2DVerticalSegment\",\n        \"19\":\"IfcAlignmentCurve\",\n        \"20\":\"IfcAlignmentTypeEnum\",\n        \"21\":\"IfcCartesianPointList2D\",\n        \"22\":\"IfcCartesianPointList3D\",\n        \"23\":\"IfcCircularArcSegment2D\",\n        \"24\":\"IfcCurveDim\",\n        \"25\":\"IfcCurveSegment2D\",\n        \"26\":\"IfcDistanceExpression\",\n        \"27\":\"IfcLineSegment2D\",\n        \"28\":\"IfcLinearPlacement\",\n        \"29\":\"IfcLinearPositioningElement\",\n        \"30\":\"IfcOffsetCurve\",\n        \"31\":\"IfcOffsetCurveByDistances\",\n        \"32\":\"IfcOrientationExpression\",\n        \"33\":\"IfcPositioningElement\",\n        \"34\":\"IfcReferent\",\n        \"35\":\"IfcReferentTypeEnum\",\n        \"36\":\"IfcResourceObjectSelect\",\n        \"37\":\"IfcSectionedSolid\",\n        \"38\":\"IfcSectionedSolidHorizontal\",\n        \"39\":\"IfcShapeAspect\",\n        \"40\":\"IfcTransitionCurveSegment2D\",\n        \"41\":\"IfcTransitionCurveType\",\n        \"42\":\"IfcTriangulatedIrregularNetwork\",\n        \"43\":\"Pset_ElectricFlowStorageDevicePHistory\",\n        \"44\":\"Pset_MechanicalFastenerCommon\",\n        \"45\":\"Pset_PileCommon\",\n        \"46\":\"Pset_ReinforcingBarCommon\",\n        \"47\":\"Pset_ReinforcingMeshCommon\",\n        \"48\":\"Pset_TankOccurrence\",\n        \"49\":\"Pset_TankPHistory\",\n        \"50\":\"Pset_TendonAnchorCommon\",\n        \"51\":\"Pset_TendonCommon\"\n    },\n    \"count\":{\n        \"0\":\"4\",\n        \"1\":\"3\",\n        \"2\":\"3\",\n        \"3\":\"2\",\n        \"4\":\"2\",\n        \"5\":\"2\",\n        \"6\":\"2\",\n        \"7\":\"2\",\n        \"8\":\"2\",\n        \"9\":\"2\",\n        \"10\":\"1\",\n        \"11\":\"1\",\n        \"12\":\"1\",\n        \"13\":\"1\",\n        \"14\":\"1\",\n        \"15\":\"1\",\n        \"16\":\"1\",\n        \"17\":\"1\",\n        \"18\":\"1\",\n        \"19\":\"1\",\n        \"20\":\"1\",\n        \"21\":\"1\",\n        \"22\":\"1\",\n        \"23\":\"1\",\n        \"24\":\"1\",\n        \"25\":\"1\",\n        \"26\":\"1\",\n        \"27\":\"1\",\n        \"28\":\"1\",\n        \"29\":\"1\",\n        \"30\":\"1\",\n        \"31\":\"1\",\n        \"32\":\"1\",\n        \"33\":\"1\",\n        \"34\":\"1\",\n        \"35\":\"1\",\n        \"36\":\"1\",\n        \"37\":\"1\",\n        \"38\":\"1\",\n        \"39\":\"1\",\n        \"40\":\"1\",\n        \"41\":\"1\",\n        \"42\":\"1\",\n        \"43\":\"1\",\n        \"44\":\"1\",\n        \"45\":\"1\",\n        \"46\":\"1\",\n        \"47\":\"1\",\n        \"48\":\"1\",\n        \"49\":\"1\",\n        \"50\":\"1\",\n        \"51\":\"1\"\n    }\n}",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "\n\n```sparql\n# 查询变更位置分布\nSELECT ?change_label ?type_label (COUNT(DISTINCT ?change) AS ?count)\nWHERE { \n    ?concept a clog:SchematicConcept;\n        clog:hasChange ?change.\n    ?change clog:hasLocation ?change_loc;\n        a ?change_type.\n    ?change_type rdfs:label ?change_label.\n    ?change_loc a ?type.\n    ?type rdfs:label ?type_label.\n}\nGROUP BY ?change_label ?type_label\nORDER BY DESC(?count)\n```",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "{\n    \"change_label\":{\n        \"0\":\"Create\",\n        \"1\":\"Delete\",\n        \"2\":\"Update\",\n        \"3\":\"Delete\",\n        \"4\":\"Update\",\n        \"5\":\"Create\",\n        \"6\":\"Delete\",\n        \"7\":\"Delete\",\n        \"8\":\"Update\",\n        \"9\":\"Delete\",\n        \"10\":\"Create\",\n        \"11\":\"Create\",\n        \"12\":\"Create\",\n        \"13\":\"Create\"\n    },\n    \"type_label\":{\n        \"0\":\"UndefinedChangeLocation\",\n        \"1\":\"PropertyChangeLocation\",\n        \"2\":\"PropertyChangeLocation\",\n        \"3\":\"UndefinedChangeLocation\",\n        \"4\":\"SupertypeChangeLocation\",\n        \"5\":\"DirectAttributeChangeLocation\",\n        \"6\":\"WhereRuleChangeLocation\",\n        \"7\":\"DirectAttributeChangeLocation\",\n        \"8\":\"UndefinedChangeLocation\",\n        \"9\":\"InverseAttributeChangeLocation\",\n        \"10\":\"WhereRuleChangeLocation\",\n        \"11\":\"ItemChangeLocation\",\n        \"12\":\"InverseAttributeChangeLocation\",\n        \"13\":\"PropertyChangeLocation\"\n    },\n    \"count\":{\n        \"0\":\"28\",\n        \"1\":\"9\",\n        \"2\":\"7\",\n        \"3\":\"7\",\n        \"4\":\"3\",\n        \"5\":\"2\",\n        \"6\":\"2\",\n        \"7\":\"2\",\n        \"8\":\"1\",\n        \"9\":\"1\",\n        \"10\":\"1\",\n        \"11\":\"1\",\n        \"12\":\"1\",\n        \"13\":\"1\"\n    }\n}",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    }
+]

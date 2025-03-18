@@ -1,0 +1,754 @@
+{
+    "IfcAlignment": {
+        "link": "lexical/IfcAlignment.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DHorizontal": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DHorizontalSegment": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DSegment": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DVerSegCircularArc": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DVerSegLine": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DVerSegParabolicArc": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DVertical": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignment2DVerticalSegment": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignmentCurve": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcAlignmentTypeEnum": {
+        "link": "lexical/IfcAlignmentTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcCartesianPointList2D": {
+        "link": "lexical/IfcCartesianPointList2D.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "attribute",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "TagList"
+            }
+        ]
+    },
+    "IfcCartesianPointList3D": {
+        "link": "lexical/IfcCartesianPointList3D.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "attribute",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "TagList"
+            }
+        ]
+    },
+    "IfcCircularArcSegment2D": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcCurveDim": {
+        "link": "lexical/IfcCurveDim.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcCurveSegment2D": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcDistanceExpression": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcGrid": {
+        "link": "lexical/IfcGrid.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "inverse attribute",
+                "location_detailed": {
+                    "type": "inverse_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "ContainedInStructure"
+            },
+            {
+                "type": "x-square",
+                "location": "where rule",
+                "location_detailed": {
+                    "type": "where_rule",
+                    "rule_name": "",
+                    "rule_change": ""
+                },
+                "description": "HasPlacement"
+            },
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i><a href=\"lexical/IfcProduct.htm\">IfcProduct</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcPositioningElement.htm\">IfcPositioningElement</a></i></div>"
+            }
+        ]
+    },
+    "IfcLineSegment2D": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcLinearPlacement": {
+        "link": "lexical/IfcLinearPlacement.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcLinearPositioningElement": {
+        "link": "lexical/IfcLinearPositioningElement.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcOffsetCurve": {
+        "link": "lexical/IfcOffsetCurve.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcOffsetCurve2D": {
+        "link": "lexical/IfcOffsetCurve2D.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "attribute",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "BasisCurve"
+            },
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i><a href=\"lexical/IfcCurve.htm\">IfcCurve</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcOffsetCurve.htm\">IfcOffsetCurve</a></i></div>"
+            }
+        ]
+    },
+    "IfcOffsetCurve3D": {
+        "link": "lexical/IfcOffsetCurve3D.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "attribute",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "BasisCurve"
+            },
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i><a href=\"lexical/IfcCurve.htm\">IfcCurve</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcOffsetCurve.htm\">IfcOffsetCurve</a></i></div>"
+            }
+        ]
+    },
+    "IfcOffsetCurveByDistances": {
+        "link": "lexical/IfcOffsetCurveByDistances.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcOrientationExpression": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcPositioningElement": {
+        "link": "lexical/IfcPositioningElement.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcPresentationLayerWithStyle": {
+        "link": "lexical/IfcPresentationLayerWithStyle.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "where rule",
+                "location_detailed": {
+                    "type": "where_rule",
+                    "rule_name": "",
+                    "rule_change": ""
+                },
+                "description": "ApplicableOnlyToItems"
+            },
+            {
+                "type": "x-square",
+                "location": "where rule",
+                "location_detailed": {
+                    "type": "where_rule",
+                    "rule_name": "",
+                    "rule_change": ""
+                },
+                "description": "ApplicableOnlyToItems"
+            }
+        ]
+    },
+    "IfcReferent": {
+        "link": "lexical/IfcReferent.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcReferentTypeEnum": {
+        "link": "lexical/IfcReferentTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcResourceObjectSelect": {
+        "link": "lexical/IfcResourceObjectSelect.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "<a href=\"lexical/IfcShapeAspect.htm\">IfcShapeAspect</a>"
+            }
+        ]
+    },
+    "IfcSectionedSolid": {
+        "link": "lexical/IfcSectionedSolid.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcSectionedSolidHorizontal": {
+        "link": "lexical/IfcSectionedSolidHorizontal.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcShapeAspect": {
+        "link": "lexical/IfcShapeAspect.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "inverse attribute",
+                "location_detailed": {
+                    "type": "inverse_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "HasExternalReferences"
+            }
+        ]
+    },
+    "IfcTransitionCurveSegment2D": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcTransitionCurveType": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcTriangulatedIrregularNetwork": {
+        "link": "lexical/IfcTriangulatedIrregularNetwork.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_ActuatorTypeCommon": {
+        "link": "lexical/Pset_ActuatorTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Application",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Application"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated <a href=\"lexical/PEnum_ActuatorApplication.htm\">PEnum_ActuatorApplication</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated invalid</i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property FailPosition",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "FailPosition"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated <a href=\"lexical/PEnum_FailPosition.htm\">PEnum_FailPosition</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated invalid</i></div>"
+            }
+        ]
+    },
+    "Pset_AirToAirHeatRecoveryTypeCommon": {
+        "link": "lexical/Pset_AirToAirHeatRecoveryTypeCommon.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "HeatTransferTypeEnum"
+            },
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "HeatTransferType"
+            }
+        ]
+    },
+    "Pset_ElectricFlowStorageDevicePHistory": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_ElectricFlowStorageDeviceTypeCommon": {
+        "link": "lexical/Pset_ElectricFlowStorageDeviceTypeCommon.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "ModuleCapacity"
+            },
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "ModulesInParallel"
+            },
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "ModulesInSeries"
+            },
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "RadiativeFraction"
+            }
+        ]
+    },
+    "Pset_ElementComponentCommon": {
+        "link": "lexical/Pset_ElementComponentCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property CorrosionTreatment",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "CorrosionTreatment"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementComponentCorrosionTreatment.htm\">PEnum_ElementComponentCorrosionTreatment</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property DeliveryType",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "DeliveryType"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementComponentDeliveryType.htm\">PEnum_ElementComponentDeliveryType</a></i></div>"
+            }
+        ]
+    },
+    "Pset_MechanicalFastenerCommon": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_PileCommon": {
+        "link": "lexical/Pset_PileCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_ReinforcingBarCommon": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_ReinforcingMeshCommon": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_SolarDeviceTypeCommon": {
+        "link": "lexical/Pset_SolarDeviceTypeCommon.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "ActiveCellSurfaceAreaFraction"
+            },
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "CellEfficiency"
+            },
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_TankOccurrence": {
+        "link": "lexical/Pset_TankOccurrence.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property TankComposition",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "TankComposition"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_TankComposition.htm\">PEnum_TankComposition</a></i></div>"
+            }
+        ]
+    },
+    "Pset_TankPHistory": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_TendonAnchorCommon": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_TendonCommon": {
+        "link": null,
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_TransformerTypeCommon": {
+        "link": "lexical/Pset_TransformerTypeCommon.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "EfficiencyCurve"
+            },
+            {
+                "type": "x-square",
+                "location": "property",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": ""
+                },
+                "description": "RadiativeFraction"
+            }
+        ]
+    }
+}

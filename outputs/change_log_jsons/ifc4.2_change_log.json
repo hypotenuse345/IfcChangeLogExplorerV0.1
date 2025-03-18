@@ -1,0 +1,1452 @@
+{
+    "IfcBeamTypeEnum": {
+        "link": "lexical/IfcBeamTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "CORNICE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "DIAPHRAGM"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "EDGEBEAM"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "GIRDER_SEGMENT"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "HATSTONE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PIERCAP"
+            }
+        ]
+    },
+    "IfcBearing": {
+        "link": "lexical/IfcBearing.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBearingType": {
+        "link": "lexical/IfcBearingType.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBearingTypeDisplacementEnum": {
+        "link": null,
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBearingTypeEnum": {
+        "link": "lexical/IfcBearingTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBoundedCurve": {
+        "link": "lexical/IfcBoundedCurve.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "inverse attribute",
+                "location_detailed": {
+                    "type": "inverse_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "PositioningElement"
+            }
+        ]
+    },
+    "IfcBridge": {
+        "link": "lexical/IfcBridge.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBridgePart": {
+        "link": "lexical/IfcBridgePart.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBridgePartTypeEnum": {
+        "link": "lexical/IfcBridgePartTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBridgeTypeEnum": {
+        "link": "lexical/IfcBridgeTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcBuilding": {
+        "link": "lexical/IfcBuilding.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i><a href=\"lexical/IfcSpatialStructureElement.htm\">IfcSpatialStructureElement</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcFacility.htm\">IfcFacility</a></i></div>"
+            }
+        ]
+    },
+    "IfcBuildingElementPartTypeEnum": {
+        "link": "lexical/IfcBuildingElementPartTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "APRON"
+            }
+        ]
+    },
+    "IfcBuildingStorey": {
+        "link": "lexical/IfcBuildingStorey.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i><a href=\"lexical/IfcSpatialStructureElement.htm\">IfcSpatialStructureElement</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcFacilityPart.htm\">IfcFacilityPart</a></i></div>"
+            }
+        ]
+    },
+    "IfcBuildingSystemTypeEnum": {
+        "link": "lexical/IfcBuildingSystemTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PRESTRESSING"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "REINFORCING"
+            }
+        ]
+    },
+    "IfcCaissonFoundation": {
+        "link": "lexical/IfcCaissonFoundation.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcCaissonFoundationType": {
+        "link": "lexical/IfcCaissonFoundationType.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcCaissonFoundationTypeEnum": {
+        "link": "lexical/IfcCaissonFoundationTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcColumnTypeEnum": {
+        "link": "lexical/IfcColumnTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PIERSTEM"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PIERSTEM_SEGMENT"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "STANDCOLUMN"
+            }
+        ]
+    },
+    "IfcCoveringTypeEnum": {
+        "link": "lexical/IfcCoveringTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "COPING"
+            }
+        ]
+    },
+    "IfcDeepFoundation": {
+        "link": "lexical/IfcDeepFoundation.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcDeepFoundationType": {
+        "link": "lexical/IfcDeepFoundationType.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcDiscreteAccessoryTypeEnum": {
+        "link": "lexical/IfcDiscreteAccessoryTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "EXPANSION_JOINT_DEVICE"
+            }
+        ]
+    },
+    "IfcElementAssemblyTypeEnum": {
+        "link": "lexical/IfcElementAssemblyTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "ABUTMENT"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "CROSS_BRACING"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "DECK"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PIER"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PYLON"
+            }
+        ]
+    },
+    "IfcFaceBasedSurfaceModel": {
+        "link": "lexical/IfcFaceBasedSurfaceModel.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "deprecated",
+                "location_detailed": {
+                    "type": "deprecated"
+                },
+                "description": "Is no longer deprecated"
+            }
+        ]
+    },
+    "IfcFacility": {
+        "link": "lexical/IfcFacility.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcFacilityPart": {
+        "link": "lexical/IfcFacilityPart.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcGeographicElementTypeEnum": {
+        "link": "lexical/IfcGeographicElementTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "SOIL_BORING_POINT"
+            }
+        ]
+    },
+    "IfcGrid": {
+        "link": "lexical/IfcGrid.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute UAxes type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "UAxes",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "attribute VAxes type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "VAxes",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "attribute WAxes type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "WAxes",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>"
+            }
+        ]
+    },
+    "IfcIndexedPolygonalFaceWithVoids": {
+        "link": "lexical/IfcIndexedPolygonalFaceWithVoids.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute InnerCoordIndices type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "InnerCoordIndices",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of list[3:?] of unique <a href=\"lexical/IfcPositiveInteger.htm\">IfcPositiveInteger</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of list[3:?] of <a href=\"lexical/IfcPositiveInteger.htm\">IfcPositiveInteger</a></i></div>"
+            }
+        ]
+    },
+    "IfcLinearPlacement": {
+        "link": "lexical/IfcLinearPlacement.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute PlacementRelTo name",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "PlacementRelTo",
+                    "attribute_change": "name"
+                },
+                "description": "<div><span>Changed from </span><i>PlacementRelTo</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>PlacementMeasuredAlong</i></div>"
+            }
+        ]
+    },
+    "IfcLinearPositioningElement": {
+        "link": "lexical/IfcLinearPositioningElement.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "abstract",
+                "location_detailed": {
+                    "type": "abstract"
+                },
+                "description": "Is no longer abstract"
+            }
+        ]
+    },
+    "IfcLocalPlacement": {
+        "link": "lexical/IfcLocalPlacement.htm",
+        "changes": [
+            {
+                "type": "x-square",
+                "location": "attribute",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "PlacementRelTo"
+            }
+        ]
+    },
+    "IfcMaterialClassificationRelationship": {
+        "link": "lexical/IfcMaterialClassificationRelationship.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "deprecated",
+                "location_detailed": {
+                    "type": "deprecated"
+                },
+                "description": "Is no longer deprecated"
+            }
+        ]
+    },
+    "IfcMaterialList": {
+        "link": "lexical/IfcMaterialList.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "deprecated",
+                "location_detailed": {
+                    "type": "deprecated"
+                },
+                "description": "Is no longer deprecated"
+            }
+        ]
+    },
+    "IfcMechanicalFastenerTypeEnum": {
+        "link": "lexical/IfcMechanicalFastenerTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "COUPLER"
+            }
+        ]
+    },
+    "IfcMemberTypeEnum": {
+        "link": "lexical/IfcMemberTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "ARCH_SEGMENT"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "STAY_CABLE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "STIFFENING_RIB"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "SUSPENDER"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "SUSPENSION_CABLE"
+            }
+        ]
+    },
+    "IfcObjectPlacement": {
+        "link": "lexical/IfcObjectPlacement.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "attribute",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "PlacementRelTo"
+            },
+            {
+                "type": "x-square",
+                "location": "inverse attribute",
+                "location_detailed": {
+                    "type": "inverse_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "ReferencedByPlacements"
+            }
+        ]
+    },
+    "IfcPath": {
+        "link": "lexical/IfcPath.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute EdgeList type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "EdgeList",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcOrientedEdge.htm\">IfcOrientedEdge</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcOrientedEdge.htm\">IfcOrientedEdge</a></i></div>"
+            }
+        ]
+    },
+    "IfcPile": {
+        "link": "lexical/IfcPile.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i>IfcBuildingElement</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcDeepFoundation.htm\">IfcDeepFoundation</a></i></div>"
+            }
+        ]
+    },
+    "IfcPileType": {
+        "link": "lexical/IfcPileType.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "supertype",
+                "location_detailed": {
+                    "type": "supertype"
+                },
+                "description": "<div><span>Changed from </span><i>IfcBuildingElementType</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i><a href=\"lexical/IfcDeepFoundationType.htm\">IfcDeepFoundationType</a></i></div>"
+            }
+        ]
+    },
+    "IfcPlateTypeEnum": {
+        "link": "lexical/IfcPlateTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "BASE_PLATE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "COVER_PLATE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "FLANGE_PLATE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "GUSSET_PLATE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "SPLICE_PLATE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "STIFFENER_PLATE"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "WEB_PLATE"
+            }
+        ]
+    },
+    "IfcPolyLoop": {
+        "link": "lexical/IfcPolyLoop.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute Polygon type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "Polygon",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[3:?] of unique <a href=\"lexical/IfcCartesianPoint.htm\">IfcCartesianPoint</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[3:?] of <a href=\"lexical/IfcCartesianPoint.htm\">IfcCartesianPoint</a></i></div>"
+            }
+        ]
+    },
+    "IfcPositioningElement": {
+        "link": "lexical/IfcPositioningElement.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "inverse attribute",
+                "location_detailed": {
+                    "type": "inverse_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "Positions"
+            }
+        ]
+    },
+    "IfcPresentationStyleAssignment": {
+        "link": null,
+        "changes": [
+            {
+                "type": "edit",
+                "location": "deprecated",
+                "location_detailed": {
+                    "type": "deprecated"
+                },
+                "description": "Is no longer deprecated"
+            }
+        ]
+    },
+    "IfcProduct": {
+        "link": "lexical/IfcProduct.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "inverse attribute",
+                "location_detailed": {
+                    "type": "inverse_attribute",
+                    "attribute_name": "",
+                    "attribute_change": ""
+                },
+                "description": "PositionedRelativeTo"
+            }
+        ]
+    },
+    "IfcProjectionElementTypeEnum": {
+        "link": "lexical/IfcProjectionElementTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "BLISTER"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "DEVIATOR"
+            }
+        ]
+    },
+    "IfcPropertyEnumeration": {
+        "link": "lexical/IfcPropertyEnumeration.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute EnumerationValues type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "EnumerationValues",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcValue.htm\">IfcValue</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcValue.htm\">IfcValue</a></i></div>"
+            }
+        ]
+    },
+    "IfcPropertyTableValue": {
+        "link": "lexical/IfcPropertyTableValue.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute DefiningValues type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "DefiningValues",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcValue.htm\">IfcValue</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcValue.htm\">IfcValue</a></i></div>"
+            }
+        ]
+    },
+    "IfcProxy": {
+        "link": null,
+        "changes": [
+            {
+                "type": "edit",
+                "location": "deprecated",
+                "location_detailed": {
+                    "type": "deprecated"
+                },
+                "description": "Is no longer deprecated"
+            }
+        ]
+    },
+    "IfcReinforcingBarTypeEnum": {
+        "link": "lexical/IfcReinforcingBarTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "SPACEBAR"
+            }
+        ]
+    },
+    "IfcRelCoversSpaces": {
+        "link": "lexical/IfcRelCoversSpaces.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "deprecated",
+                "location_detailed": {
+                    "type": "deprecated"
+                },
+                "description": "Is no longer deprecated"
+            }
+        ]
+    },
+    "IfcRelInterferesElements": {
+        "link": "lexical/IfcRelInterferesElements.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "where rule",
+                "location_detailed": {
+                    "type": "where_rule",
+                    "rule_name": "",
+                    "rule_change": ""
+                },
+                "description": "NoSelfReference"
+            },
+            {
+                "type": "x-square",
+                "location": "where rule",
+                "location_detailed": {
+                    "type": "where_rule",
+                    "rule_name": "",
+                    "rule_change": ""
+                },
+                "description": "NotSelfReference"
+            }
+        ]
+    },
+    "IfcRelPositions": {
+        "link": "lexical/IfcRelPositions.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcSlabTypeEnum": {
+        "link": "lexical/IfcSlabTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "APPROACH_SLAB"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "PAVING"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "SIDEWALK"
+            },
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "WEARING"
+            }
+        ]
+    },
+    "IfcStructuralLoadConfiguration": {
+        "link": "lexical/IfcStructuralLoadConfiguration.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute Locations type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "Locations",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique list[1:2] of <a href=\"lexical/IfcLengthMeasure.htm\">IfcLengthMeasure</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of list[1:2] of <a href=\"lexical/IfcLengthMeasure.htm\">IfcLengthMeasure</a></i></div>"
+            }
+        ]
+    },
+    "IfcSurfaceFeatureTypeEnum": {
+        "link": "lexical/IfcSurfaceFeatureTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "DEFECT"
+            }
+        ]
+    },
+    "IfcTendonConduit": {
+        "link": "lexical/IfcTendonConduit.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcTendonConduitType": {
+        "link": "lexical/IfcTendonConduitType.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcTendonConduitTypeEnum": {
+        "link": "lexical/IfcTendonConduitTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcTypeProduct": {
+        "link": "lexical/IfcTypeProduct.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute RepresentationMaps type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "RepresentationMaps",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[1:?] of unique <a href=\"lexical/IfcRepresentationMap.htm\">IfcRepresentationMap</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[1:?] of <a href=\"lexical/IfcRepresentationMap.htm\">IfcRepresentationMap</a></i></div>"
+            }
+        ]
+    },
+    "IfcVibrationDamper": {
+        "link": "lexical/IfcVibrationDamper.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcVibrationDamperType": {
+        "link": "lexical/IfcVibrationDamperType.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcVibrationDamperTypeEnum": {
+        "link": "lexical/IfcVibrationDamperTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "IfcVibrationIsolatorTypeEnum": {
+        "link": "lexical/IfcVibrationIsolatorTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "BASE"
+            }
+        ]
+    },
+    "IfcVirtualGridIntersection": {
+        "link": "lexical/IfcVirtualGridIntersection.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "attribute IntersectingAxes type",
+                "location_detailed": {
+                    "type": "direct_attribute",
+                    "attribute_name": "IntersectingAxes",
+                    "attribute_change": "type"
+                },
+                "description": "<div><span>Changed from </span><i>list[2:2] of unique <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>list[2:2] of <a href=\"lexical/IfcGridAxis.htm\">IfcGridAxis</a></i></div>"
+            }
+        ]
+    },
+    "IfcWallTypeEnum": {
+        "link": "lexical/IfcWallTypeEnum.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "item",
+                "location_detailed": {
+                    "type": "item",
+                    "item_name": ""
+                },
+                "description": "RETAININGWALL"
+            }
+        ]
+    },
+    "Pset_ActuatorTypeCommon": {
+        "link": "lexical/Pset_ActuatorTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Application",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Application"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ActuatorApplication.htm\">PEnum_ActuatorApplication</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property FailPosition",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "FailPosition"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_FailPosition.htm\">PEnum_FailPosition</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_BeamCommon": {
+        "link": "lexical/Pset_BeamCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_BearingCommon": {
+        "link": "lexical/Pset_BearingCommon.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_BridgeCommon": {
+        "link": "lexical/Pset_BridgeCommon.htm",
+        "changes": [
+            {
+                "type": "plus-square",
+                "location": "",
+                "location_detailed": {},
+                "description": ""
+            }
+        ]
+    },
+    "Pset_CivilElementCommon": {
+        "link": "lexical/Pset_CivilElementCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_CoilTypeCommon": {
+        "link": "lexical/Pset_CoilTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_CondenserTypeCommon": {
+        "link": "lexical/Pset_CondenserTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_CooledBeamTypeCommon": {
+        "link": "lexical/Pset_CooledBeamTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property IntegratedLightingType",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "IntegratedLightingType"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_CooledBeamIntegratedLightingType.htm\">PEnum_CooledBeamIntegratedLightingType</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property PipeConnection",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "PipeConnection"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_CooledBeamPipeConnection.htm\">PEnum_CooledBeamPipeConnection</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property WaterFlowControlSystemType",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "WaterFlowControlSystemType"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_CooledBeamWaterFlowControlSystemType.htm\">PEnum_CooledBeamWaterFlowControlSystemType</a></i></div>"
+            }
+        ]
+    },
+    "Pset_DistributionPortTypeCable": {
+        "link": "lexical/Pset_DistributionPortTypeCable.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property ConductorFunction",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "ConductorFunction"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ConductorFunctionEnum.htm\">PEnum_ConductorFunctionEnum</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property ConnectionGender",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "ConnectionGender"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_DistributionPortGender.htm\">PEnum_DistributionPortGender</a></i></div>"
+            }
+        ]
+    },
+    "Pset_ElectricalDeviceCommon": {
+        "link": "lexical/Pset_ElectricalDeviceCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property InsulationStandardClass",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "InsulationStandardClass"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_InsulationStandardClass.htm\">PEnum_InsulationStandardClass</a></i></div>"
+            }
+        ]
+    },
+    "Pset_ElementAssemblyCommon": {
+        "link": "lexical/Pset_ElementAssemblyCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_FurnitureTypeCommon": {
+        "link": "lexical/Pset_FurnitureTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_LampTypeCommon": {
+        "link": "lexical/Pset_LampTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property LampBallastType",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "LampBallastType"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_LampBallastType.htm\">PEnum_LampBallastType</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property LampCompensationType",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "LampCompensationType"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_LampCompensationType.htm\">PEnum_LampCompensationType</a></i></div>"
+            }
+        ]
+    },
+    "Pset_SanitaryTerminalTypeCommon": {
+        "link": "lexical/Pset_SanitaryTerminalTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_SensorTypeCommon": {
+        "link": "lexical/Pset_SensorTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    },
+    "Pset_ValveTypeCommon": {
+        "link": "lexical/Pset_ValveTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property ValveMechanism",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "ValveMechanism"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ValveMechanism.htm\">PEnum_ValveMechanism</a></i></div>"
+            },
+            {
+                "type": "edit",
+                "location": "property ValveOperation",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "ValveOperation"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ValveOperation.htm\">PEnum_ValveOperation</a></i></div>"
+            }
+        ]
+    },
+    "Pset_VibrationIsolatorTypeCommon": {
+        "link": "lexical/Pset_VibrationIsolatorTypeCommon.htm",
+        "changes": [
+            {
+                "type": "edit",
+                "location": "property Status",
+                "location_detailed": {
+                    "type": "property",
+                    "property_name": "Status"
+                },
+                "description": "<div><span>Changed from </span><i>enumerated invalid</i></div>\n<div><span style=\"display:inline-block; width:0px; white-space: nowrap;\">to</span><span style=\"visibility: hidden\">Changed from </span><i>enumerated <a href=\"lexical/PEnum_ElementStatus.htm\">PEnum_ElementStatus</a></i></div>"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1420 @@
+<thead>
+<tr>
+<th>Type</th>
+<th>Entity</th>
+<th>Location</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBeamTypeEnum.htm">IfcBeamTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    CORNICE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBeamTypeEnum.htm">IfcBeamTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    DIAPHRAGM
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBeamTypeEnum.htm">IfcBeamTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    EDGEBEAM
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBeamTypeEnum.htm">IfcBeamTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    GIRDER_SEGMENT
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBeamTypeEnum.htm">IfcBeamTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    HATSTONE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBeamTypeEnum.htm">IfcBeamTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PIERCAP
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBearing.htm">IfcBearing</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBearingType.htm">IfcBearingType</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity">IfcBearingTypeDisplacementEnum</td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBearingTypeEnum.htm">IfcBearingTypeEnum</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBoundedCurve.htm">IfcBoundedCurve</a></td>
+<td data-label="Location">inverse attribute</td>
+<td data-label="Description">
+                
+                
+                    PositioningElement
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBridge.htm">IfcBridge</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBridgePart.htm">IfcBridgePart</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBridgePartTypeEnum.htm">IfcBridgePartTypeEnum</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBridgeTypeEnum.htm">IfcBridgeTypeEnum</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBuilding.htm">IfcBuilding</a></td>
+<td data-label="Location">supertype</td>
+<td data-label="Description">
+<div><span>Changed from </span><i><a href="lexical/IfcSpatialStructureElement.htm">IfcSpatialStructureElement</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcFacility.htm">IfcFacility</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBuildingElementPartTypeEnum.htm">IfcBuildingElementPartTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    APRON
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBuildingStorey.htm">IfcBuildingStorey</a></td>
+<td data-label="Location">supertype</td>
+<td data-label="Description">
+<div><span>Changed from </span><i><a href="lexical/IfcSpatialStructureElement.htm">IfcSpatialStructureElement</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcFacilityPart.htm">IfcFacilityPart</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBuildingSystemTypeEnum.htm">IfcBuildingSystemTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PRESTRESSING
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcBuildingSystemTypeEnum.htm">IfcBuildingSystemTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    REINFORCING
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcCaissonFoundation.htm">IfcCaissonFoundation</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcCaissonFoundationType.htm">IfcCaissonFoundationType</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcCaissonFoundationTypeEnum.htm">IfcCaissonFoundationTypeEnum</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcColumnTypeEnum.htm">IfcColumnTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PIERSTEM
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcColumnTypeEnum.htm">IfcColumnTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PIERSTEM_SEGMENT
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcColumnTypeEnum.htm">IfcColumnTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    STANDCOLUMN
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcCoveringTypeEnum.htm">IfcCoveringTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    COPING
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcDeepFoundation.htm">IfcDeepFoundation</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcDeepFoundationType.htm">IfcDeepFoundationType</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcDiscreteAccessoryTypeEnum.htm">IfcDiscreteAccessoryTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    EXPANSION_JOINT_DEVICE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcElementAssemblyTypeEnum.htm">IfcElementAssemblyTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    ABUTMENT
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcElementAssemblyTypeEnum.htm">IfcElementAssemblyTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    CROSS_BRACING
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcElementAssemblyTypeEnum.htm">IfcElementAssemblyTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    DECK
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcElementAssemblyTypeEnum.htm">IfcElementAssemblyTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PIER
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcElementAssemblyTypeEnum.htm">IfcElementAssemblyTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PYLON
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcFaceBasedSurfaceModel.htm">IfcFaceBasedSurfaceModel</a></td>
+<td data-label="Location">deprecated</td>
+<td data-label="Description">
+                
+                
+                    Is no longer deprecated
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcFacility.htm">IfcFacility</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcFacilityPart.htm">IfcFacilityPart</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcGeographicElementTypeEnum.htm">IfcGeographicElementTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    SOIL_BORING_POINT
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcGrid.htm">IfcGrid</a></td>
+<td data-label="Location">attribute UAxes type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcGrid.htm">IfcGrid</a></td>
+<td data-label="Location">attribute VAxes type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcGrid.htm">IfcGrid</a></td>
+<td data-label="Location">attribute WAxes type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcIndexedPolygonalFaceWithVoids.htm">IfcIndexedPolygonalFaceWithVoids</a></td>
+<td data-label="Location">attribute InnerCoordIndices type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of list[3:?] of unique <a href="lexical/IfcPositiveInteger.htm">IfcPositiveInteger</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of list[3:?] of <a href="lexical/IfcPositiveInteger.htm">IfcPositiveInteger</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcLinearPlacement.htm">IfcLinearPlacement</a></td>
+<td data-label="Location">attribute PlacementRelTo name</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>PlacementRelTo</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>PlacementMeasuredAlong</i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcLinearPositioningElement.htm">IfcLinearPositioningElement</a></td>
+<td data-label="Location">abstract</td>
+<td data-label="Description">
+                
+                
+                    Is no longer abstract
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="x-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcLocalPlacement.htm">IfcLocalPlacement</a></td>
+<td data-label="Location">attribute</td>
+<td data-label="Description">
+                
+                
+                    PlacementRelTo
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMaterialClassificationRelationship.htm">IfcMaterialClassificationRelationship</a></td>
+<td data-label="Location">deprecated</td>
+<td data-label="Description">
+                
+                
+                    Is no longer deprecated
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMaterialList.htm">IfcMaterialList</a></td>
+<td data-label="Location">deprecated</td>
+<td data-label="Description">
+                
+                
+                    Is no longer deprecated
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMechanicalFastenerTypeEnum.htm">IfcMechanicalFastenerTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    COUPLER
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMemberTypeEnum.htm">IfcMemberTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    ARCH_SEGMENT
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMemberTypeEnum.htm">IfcMemberTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    STAY_CABLE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMemberTypeEnum.htm">IfcMemberTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    STIFFENING_RIB
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMemberTypeEnum.htm">IfcMemberTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    SUSPENDER
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcMemberTypeEnum.htm">IfcMemberTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    SUSPENSION_CABLE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcObjectPlacement.htm">IfcObjectPlacement</a></td>
+<td data-label="Location">attribute</td>
+<td data-label="Description">
+                
+                
+                    PlacementRelTo
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="x-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcObjectPlacement.htm">IfcObjectPlacement</a></td>
+<td data-label="Location">inverse attribute</td>
+<td data-label="Description">
+                
+                
+                    ReferencedByPlacements
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPath.htm">IfcPath</a></td>
+<td data-label="Location">attribute EdgeList type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcOrientedEdge.htm">IfcOrientedEdge</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcOrientedEdge.htm">IfcOrientedEdge</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPile.htm">IfcPile</a></td>
+<td data-label="Location">supertype</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>IfcBuildingElement</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcDeepFoundation.htm">IfcDeepFoundation</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPileType.htm">IfcPileType</a></td>
+<td data-label="Location">supertype</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>IfcBuildingElementType</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcDeepFoundationType.htm">IfcDeepFoundationType</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    BASE_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    COVER_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    FLANGE_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    GUSSET_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    SPLICE_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    STIFFENER_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPlateTypeEnum.htm">IfcPlateTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    WEB_PLATE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPolyLoop.htm">IfcPolyLoop</a></td>
+<td data-label="Location">attribute Polygon type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[3:?] of unique <a href="lexical/IfcCartesianPoint.htm">IfcCartesianPoint</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[3:?] of <a href="lexical/IfcCartesianPoint.htm">IfcCartesianPoint</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPositioningElement.htm">IfcPositioningElement</a></td>
+<td data-label="Location">inverse attribute</td>
+<td data-label="Description">
+                
+                
+                    Positions
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity">IfcPresentationStyleAssignment</td>
+<td data-label="Location">deprecated</td>
+<td data-label="Description">
+                
+                
+                    Is no longer deprecated
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcProduct.htm">IfcProduct</a></td>
+<td data-label="Location">inverse attribute</td>
+<td data-label="Description">
+                
+                
+                    PositionedRelativeTo
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcProjectionElementTypeEnum.htm">IfcProjectionElementTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    BLISTER
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcProjectionElementTypeEnum.htm">IfcProjectionElementTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    DEVIATOR
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPropertyEnumeration.htm">IfcPropertyEnumeration</a></td>
+<td data-label="Location">attribute EnumerationValues type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcValue.htm">IfcValue</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcValue.htm">IfcValue</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcPropertyTableValue.htm">IfcPropertyTableValue</a></td>
+<td data-label="Location">attribute DefiningValues type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcValue.htm">IfcValue</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcValue.htm">IfcValue</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity">IfcProxy</td>
+<td data-label="Location">deprecated</td>
+<td data-label="Description">
+                
+                
+                    Is no longer deprecated
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcReinforcingBarTypeEnum.htm">IfcReinforcingBarTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    SPACEBAR
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcRelCoversSpaces.htm">IfcRelCoversSpaces</a></td>
+<td data-label="Location">deprecated</td>
+<td data-label="Description">
+                
+                
+                    Is no longer deprecated
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcRelInterferesElements.htm">IfcRelInterferesElements</a></td>
+<td data-label="Location">where rule</td>
+<td data-label="Description">
+                
+                
+                    NoSelfReference
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="x-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcRelInterferesElements.htm">IfcRelInterferesElements</a></td>
+<td data-label="Location">where rule</td>
+<td data-label="Description">
+                
+                
+                    NotSelfReference
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcRelPositions.htm">IfcRelPositions</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcSlabTypeEnum.htm">IfcSlabTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    APPROACH_SLAB
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcSlabTypeEnum.htm">IfcSlabTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    PAVING
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcSlabTypeEnum.htm">IfcSlabTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    SIDEWALK
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcSlabTypeEnum.htm">IfcSlabTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    WEARING
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcStructuralLoadConfiguration.htm">IfcStructuralLoadConfiguration</a></td>
+<td data-label="Location">attribute Locations type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique list[1:2] of <a href="lexical/IfcLengthMeasure.htm">IfcLengthMeasure</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of list[1:2] of <a href="lexical/IfcLengthMeasure.htm">IfcLengthMeasure</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcSurfaceFeatureTypeEnum.htm">IfcSurfaceFeatureTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    DEFECT
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcTendonConduit.htm">IfcTendonConduit</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcTendonConduitType.htm">IfcTendonConduitType</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcTendonConduitTypeEnum.htm">IfcTendonConduitTypeEnum</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcTypeProduct.htm">IfcTypeProduct</a></td>
+<td data-label="Location">attribute RepresentationMaps type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcRepresentationMap.htm">IfcRepresentationMap</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcRepresentationMap.htm">IfcRepresentationMap</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcVibrationDamper.htm">IfcVibrationDamper</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcVibrationDamperType.htm">IfcVibrationDamperType</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcVibrationDamperTypeEnum.htm">IfcVibrationDamperTypeEnum</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcVibrationIsolatorTypeEnum.htm">IfcVibrationIsolatorTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    BASE
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcVirtualGridIntersection.htm">IfcVirtualGridIntersection</a></td>
+<td data-label="Location">attribute IntersectingAxes type</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>list[2:2] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[2:2] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/IfcWallTypeEnum.htm">IfcWallTypeEnum</a></td>
+<td data-label="Location">item</td>
+<td data-label="Description">
+                
+                
+                    RETAININGWALL
+                
+            </td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ActuatorTypeCommon.htm">Pset_ActuatorTypeCommon</a></td>
+<td data-label="Location">property Application</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ActuatorApplication.htm">PEnum_ActuatorApplication</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ActuatorTypeCommon.htm">Pset_ActuatorTypeCommon</a></td>
+<td data-label="Location">property FailPosition</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_FailPosition.htm">PEnum_FailPosition</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ActuatorTypeCommon.htm">Pset_ActuatorTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_BeamCommon.htm">Pset_BeamCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_BearingCommon.htm">Pset_BearingCommon</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="plus-square"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_BridgeCommon.htm">Pset_BridgeCommon</a></td>
+<td data-label="Location"></td>
+<td data-label="Description">
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CivilElementCommon.htm">Pset_CivilElementCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CoilTypeCommon.htm">Pset_CoilTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CondenserTypeCommon.htm">Pset_CondenserTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CooledBeamTypeCommon.htm">Pset_CooledBeamTypeCommon</a></td>
+<td data-label="Location">property IntegratedLightingType</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_CooledBeamIntegratedLightingType.htm">PEnum_CooledBeamIntegratedLightingType</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CooledBeamTypeCommon.htm">Pset_CooledBeamTypeCommon</a></td>
+<td data-label="Location">property PipeConnection</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_CooledBeamPipeConnection.htm">PEnum_CooledBeamPipeConnection</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CooledBeamTypeCommon.htm">Pset_CooledBeamTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_CooledBeamTypeCommon.htm">Pset_CooledBeamTypeCommon</a></td>
+<td data-label="Location">property WaterFlowControlSystemType</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_CooledBeamWaterFlowControlSystemType.htm">PEnum_CooledBeamWaterFlowControlSystemType</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_DistributionPortTypeCable.htm">Pset_DistributionPortTypeCable</a></td>
+<td data-label="Location">property ConductorFunction</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ConductorFunctionEnum.htm">PEnum_ConductorFunctionEnum</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_DistributionPortTypeCable.htm">Pset_DistributionPortTypeCable</a></td>
+<td data-label="Location">property ConnectionGender</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_DistributionPortGender.htm">PEnum_DistributionPortGender</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ElectricalDeviceCommon.htm">Pset_ElectricalDeviceCommon</a></td>
+<td data-label="Location">property InsulationStandardClass</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_InsulationStandardClass.htm">PEnum_InsulationStandardClass</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ElementAssemblyCommon.htm">Pset_ElementAssemblyCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_FurnitureTypeCommon.htm">Pset_FurnitureTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_LampTypeCommon.htm">Pset_LampTypeCommon</a></td>
+<td data-label="Location">property LampBallastType</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_LampBallastType.htm">PEnum_LampBallastType</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_LampTypeCommon.htm">Pset_LampTypeCommon</a></td>
+<td data-label="Location">property LampCompensationType</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_LampCompensationType.htm">PEnum_LampCompensationType</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_SanitaryTerminalTypeCommon.htm">Pset_SanitaryTerminalTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_SensorTypeCommon.htm">Pset_SensorTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ValveTypeCommon.htm">Pset_ValveTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ValveTypeCommon.htm">Pset_ValveTypeCommon</a></td>
+<td data-label="Location">property ValveMechanism</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ValveMechanism.htm">PEnum_ValveMechanism</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_ValveTypeCommon.htm">Pset_ValveTypeCommon</a></td>
+<td data-label="Location">property ValveOperation</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ValveOperation.htm">PEnum_ValveOperation</a></i></div>
+</td>
+</tr>
+<tr>
+<td data-label="Type">
+<i data-feather="edit"></i>
+</td>
+<td data-label="Entity"><a href="lexical/Pset_VibrationIsolatorTypeCommon.htm">Pset_VibrationIsolatorTypeCommon</a></td>
+<td data-label="Location">property Status</td>
+<td data-label="Description">
+<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>
+</td>
+</tr>
+</tbody>

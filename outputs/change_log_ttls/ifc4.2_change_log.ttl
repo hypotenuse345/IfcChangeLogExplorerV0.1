@@ -1,0 +1,2246 @@
+@prefix clog: <http://www.semantic.org/zeyupan/ontologies/change_log_ontology#> .
+@prefix clogi: <http://www.semantic.org/zeyupan/instances/change_log_ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clogi:IfcAlignment a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment" ;
+    clog:hasChange clogi:Create_IfcAlignment_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcAlignment.htm" .
+
+clogi:IfcAlignment2DHorizontal a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DHorizontal" ;
+    clog:hasChange clogi:Create_IfcAlignment2DHorizontal_1 .
+
+clogi:IfcAlignment2DHorizontalSegment a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DHorizontalSegment" ;
+    clog:hasChange clogi:Create_IfcAlignment2DHorizontalSegment_1 .
+
+clogi:IfcAlignment2DSegment a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DSegment" ;
+    clog:hasChange clogi:Create_IfcAlignment2DSegment_1 .
+
+clogi:IfcAlignment2DVerSegCircularArc a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DVerSegCircularArc" ;
+    clog:hasChange clogi:Create_IfcAlignment2DVerSegCircularArc_1 .
+
+clogi:IfcAlignment2DVerSegLine a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DVerSegLine" ;
+    clog:hasChange clogi:Create_IfcAlignment2DVerSegLine_1 .
+
+clogi:IfcAlignment2DVerSegParabolicArc a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DVerSegParabolicArc" ;
+    clog:hasChange clogi:Create_IfcAlignment2DVerSegParabolicArc_1 .
+
+clogi:IfcAlignment2DVertical a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DVertical" ;
+    clog:hasChange clogi:Create_IfcAlignment2DVertical_1 .
+
+clogi:IfcAlignment2DVerticalSegment a clog:SchematicConcept ;
+    rdfs:label "IfcAlignment2DVerticalSegment" ;
+    clog:hasChange clogi:Create_IfcAlignment2DVerticalSegment_1 .
+
+clogi:IfcAlignmentCurve a clog:SchematicConcept ;
+    rdfs:label "IfcAlignmentCurve" ;
+    clog:hasChange clogi:Create_IfcAlignmentCurve_1 .
+
+clogi:IfcAlignmentTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcAlignmentTypeEnum" ;
+    clog:hasChange clogi:Create_IfcAlignmentTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcAlignmentTypeEnum.htm" .
+
+clogi:IfcBeamTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBeamTypeEnum" ;
+    clog:hasChange clogi:Create_IfcBeamTypeEnum_1,
+        clogi:Create_IfcBeamTypeEnum_2,
+        clogi:Create_IfcBeamTypeEnum_3,
+        clogi:Create_IfcBeamTypeEnum_4,
+        clogi:Create_IfcBeamTypeEnum_5,
+        clogi:Create_IfcBeamTypeEnum_6 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBeamTypeEnum.htm" .
+
+clogi:IfcBearing a clog:SchematicConcept ;
+    rdfs:label "IfcBearing" ;
+    clog:hasChange clogi:Create_IfcBearing_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBearing.htm" .
+
+clogi:IfcBearingType a clog:SchematicConcept ;
+    rdfs:label "IfcBearingType" ;
+    clog:hasChange clogi:Create_IfcBearingType_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBearingType.htm" .
+
+clogi:IfcBearingTypeDisplacementEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBearingTypeDisplacementEnum" ;
+    clog:hasChange clogi:Create_IfcBearingTypeDisplacementEnum_1 .
+
+clogi:IfcBearingTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBearingTypeEnum" ;
+    clog:hasChange clogi:Create_IfcBearingTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBearingTypeEnum.htm" .
+
+clogi:IfcBoundedCurve a clog:SchematicConcept ;
+    rdfs:label "IfcBoundedCurve" ;
+    clog:hasChange clogi:Create_IfcBoundedCurve_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBoundedCurve.htm" .
+
+clogi:IfcBridge a clog:SchematicConcept ;
+    rdfs:label "IfcBridge" ;
+    clog:hasChange clogi:Create_IfcBridge_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBridge.htm" .
+
+clogi:IfcBridgePart a clog:SchematicConcept ;
+    rdfs:label "IfcBridgePart" ;
+    clog:hasChange clogi:Create_IfcBridgePart_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBridgePart.htm" .
+
+clogi:IfcBridgePartTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBridgePartTypeEnum" ;
+    clog:hasChange clogi:Create_IfcBridgePartTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBridgePartTypeEnum.htm" .
+
+clogi:IfcBridgeTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBridgeTypeEnum" ;
+    clog:hasChange clogi:Create_IfcBridgeTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBridgeTypeEnum.htm" .
+
+clogi:IfcBuilding a clog:SchematicConcept ;
+    rdfs:label "IfcBuilding" ;
+    clog:hasChange clogi:Update_IfcBuilding_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBuilding.htm" .
+
+clogi:IfcBuildingElementPartTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBuildingElementPartTypeEnum" ;
+    clog:hasChange clogi:Create_IfcBuildingElementPartTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBuildingElementPartTypeEnum.htm" .
+
+clogi:IfcBuildingStorey a clog:SchematicConcept ;
+    rdfs:label "IfcBuildingStorey" ;
+    clog:hasChange clogi:Update_IfcBuildingStorey_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBuildingStorey.htm" .
+
+clogi:IfcBuildingSystemTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcBuildingSystemTypeEnum" ;
+    clog:hasChange clogi:Create_IfcBuildingSystemTypeEnum_1,
+        clogi:Create_IfcBuildingSystemTypeEnum_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcBuildingSystemTypeEnum.htm" .
+
+clogi:IfcCaissonFoundation a clog:SchematicConcept ;
+    rdfs:label "IfcCaissonFoundation" ;
+    clog:hasChange clogi:Create_IfcCaissonFoundation_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCaissonFoundation.htm" .
+
+clogi:IfcCaissonFoundationType a clog:SchematicConcept ;
+    rdfs:label "IfcCaissonFoundationType" ;
+    clog:hasChange clogi:Create_IfcCaissonFoundationType_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCaissonFoundationType.htm" .
+
+clogi:IfcCaissonFoundationTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcCaissonFoundationTypeEnum" ;
+    clog:hasChange clogi:Create_IfcCaissonFoundationTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCaissonFoundationTypeEnum.htm" .
+
+clogi:IfcCartesianPointList2D a clog:SchematicConcept ;
+    rdfs:label "IfcCartesianPointList2D" ;
+    clog:hasChange clogi:Create_IfcCartesianPointList2D_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCartesianPointList2D.htm" .
+
+clogi:IfcCartesianPointList3D a clog:SchematicConcept ;
+    rdfs:label "IfcCartesianPointList3D" ;
+    clog:hasChange clogi:Create_IfcCartesianPointList3D_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCartesianPointList3D.htm" .
+
+clogi:IfcCircularArcSegment2D a clog:SchematicConcept ;
+    rdfs:label "IfcCircularArcSegment2D" ;
+    clog:hasChange clogi:Create_IfcCircularArcSegment2D_1 .
+
+clogi:IfcColumnTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcColumnTypeEnum" ;
+    clog:hasChange clogi:Create_IfcColumnTypeEnum_1,
+        clogi:Create_IfcColumnTypeEnum_2,
+        clogi:Create_IfcColumnTypeEnum_3 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcColumnTypeEnum.htm" .
+
+clogi:IfcCoveringTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcCoveringTypeEnum" ;
+    clog:hasChange clogi:Create_IfcCoveringTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCoveringTypeEnum.htm" .
+
+clogi:IfcCurveDim a clog:SchematicConcept ;
+    rdfs:label "IfcCurveDim" ;
+    clog:hasChange clogi:Update_IfcCurveDim_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcCurveDim.htm" .
+
+clogi:IfcCurveSegment2D a clog:SchematicConcept ;
+    rdfs:label "IfcCurveSegment2D" ;
+    clog:hasChange clogi:Create_IfcCurveSegment2D_1 .
+
+clogi:IfcDeepFoundation a clog:SchematicConcept ;
+    rdfs:label "IfcDeepFoundation" ;
+    clog:hasChange clogi:Create_IfcDeepFoundation_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcDeepFoundation.htm" .
+
+clogi:IfcDeepFoundationType a clog:SchematicConcept ;
+    rdfs:label "IfcDeepFoundationType" ;
+    clog:hasChange clogi:Create_IfcDeepFoundationType_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcDeepFoundationType.htm" .
+
+clogi:IfcDiscreteAccessoryTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcDiscreteAccessoryTypeEnum" ;
+    clog:hasChange clogi:Create_IfcDiscreteAccessoryTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcDiscreteAccessoryTypeEnum.htm" .
+
+clogi:IfcDistanceExpression a clog:SchematicConcept ;
+    rdfs:label "IfcDistanceExpression" ;
+    clog:hasChange clogi:Create_IfcDistanceExpression_1 .
+
+clogi:IfcElementAssemblyTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcElementAssemblyTypeEnum" ;
+    clog:hasChange clogi:Create_IfcElementAssemblyTypeEnum_1,
+        clogi:Create_IfcElementAssemblyTypeEnum_2,
+        clogi:Create_IfcElementAssemblyTypeEnum_3,
+        clogi:Create_IfcElementAssemblyTypeEnum_4,
+        clogi:Create_IfcElementAssemblyTypeEnum_5 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcElementAssemblyTypeEnum.htm" .
+
+clogi:IfcFaceBasedSurfaceModel a clog:SchematicConcept ;
+    rdfs:label "IfcFaceBasedSurfaceModel" ;
+    clog:hasChange clogi:Update_IfcFaceBasedSurfaceModel_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcFaceBasedSurfaceModel.htm" .
+
+clogi:IfcFacility a clog:SchematicConcept ;
+    rdfs:label "IfcFacility" ;
+    clog:hasChange clogi:Create_IfcFacility_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcFacility.htm" .
+
+clogi:IfcFacilityPart a clog:SchematicConcept ;
+    rdfs:label "IfcFacilityPart" ;
+    clog:hasChange clogi:Create_IfcFacilityPart_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcFacilityPart.htm" .
+
+clogi:IfcGeographicElementTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcGeographicElementTypeEnum" ;
+    clog:hasChange clogi:Create_IfcGeographicElementTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcGeographicElementTypeEnum.htm" .
+
+clogi:IfcGrid a clog:SchematicConcept ;
+    rdfs:label "IfcGrid" ;
+    clog:hasChange clogi:Delete_IfcGrid_1,
+        clogi:Delete_IfcGrid_2,
+        clogi:Update_IfcGrid_1,
+        clogi:Update_IfcGrid_2,
+        clogi:Update_IfcGrid_3 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcGrid.htm" .
+
+clogi:IfcIndexedPolygonalFaceWithVoids a clog:SchematicConcept ;
+    rdfs:label "IfcIndexedPolygonalFaceWithVoids" ;
+    clog:hasChange clogi:Update_IfcIndexedPolygonalFaceWithVoids_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcIndexedPolygonalFaceWithVoids.htm" .
+
+clogi:IfcLineSegment2D a clog:SchematicConcept ;
+    rdfs:label "IfcLineSegment2D" ;
+    clog:hasChange clogi:Create_IfcLineSegment2D_1 .
+
+clogi:IfcLinearPlacement a clog:SchematicConcept ;
+    rdfs:label "IfcLinearPlacement" ;
+    clog:hasChange clogi:Create_IfcLinearPlacement_1,
+        clogi:Update_IfcLinearPlacement_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcLinearPlacement.htm" .
+
+clogi:IfcLinearPositioningElement a clog:SchematicConcept ;
+    rdfs:label "IfcLinearPositioningElement" ;
+    clog:hasChange clogi:Create_IfcLinearPositioningElement_1,
+        clogi:Update_IfcLinearPositioningElement_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcLinearPositioningElement.htm" .
+
+clogi:IfcLocalPlacement a clog:SchematicConcept ;
+    rdfs:label "IfcLocalPlacement" ;
+    clog:hasChange clogi:Delete_IfcLocalPlacement_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcLocalPlacement.htm" .
+
+clogi:IfcMaterialClassificationRelationship a clog:SchematicConcept ;
+    rdfs:label "IfcMaterialClassificationRelationship" ;
+    clog:hasChange clogi:Update_IfcMaterialClassificationRelationship_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialClassificationRelationship.htm" .
+
+clogi:IfcMaterialList a clog:SchematicConcept ;
+    rdfs:label "IfcMaterialList" ;
+    clog:hasChange clogi:Update_IfcMaterialList_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMaterialList.htm" .
+
+clogi:IfcMechanicalFastenerTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcMechanicalFastenerTypeEnum" ;
+    clog:hasChange clogi:Create_IfcMechanicalFastenerTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMechanicalFastenerTypeEnum.htm" .
+
+clogi:IfcMemberTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcMemberTypeEnum" ;
+    clog:hasChange clogi:Create_IfcMemberTypeEnum_1,
+        clogi:Create_IfcMemberTypeEnum_2,
+        clogi:Create_IfcMemberTypeEnum_3,
+        clogi:Create_IfcMemberTypeEnum_4,
+        clogi:Create_IfcMemberTypeEnum_5 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcMemberTypeEnum.htm" .
+
+clogi:IfcObjectPlacement a clog:SchematicConcept ;
+    rdfs:label "IfcObjectPlacement" ;
+    clog:hasChange clogi:Create_IfcObjectPlacement_1,
+        clogi:Delete_IfcObjectPlacement_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcObjectPlacement.htm" .
+
+clogi:IfcOffsetCurve a clog:SchematicConcept ;
+    rdfs:label "IfcOffsetCurve" ;
+    clog:hasChange clogi:Create_IfcOffsetCurve_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcOffsetCurve.htm" .
+
+clogi:IfcOffsetCurve2D a clog:SchematicConcept ;
+    rdfs:label "IfcOffsetCurve2D" ;
+    clog:hasChange clogi:Delete_IfcOffsetCurve2D_1,
+        clogi:Update_IfcOffsetCurve2D_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcOffsetCurve2D.htm" .
+
+clogi:IfcOffsetCurve3D a clog:SchematicConcept ;
+    rdfs:label "IfcOffsetCurve3D" ;
+    clog:hasChange clogi:Delete_IfcOffsetCurve3D_1,
+        clogi:Update_IfcOffsetCurve3D_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcOffsetCurve3D.htm" .
+
+clogi:IfcOffsetCurveByDistances a clog:SchematicConcept ;
+    rdfs:label "IfcOffsetCurveByDistances" ;
+    clog:hasChange clogi:Create_IfcOffsetCurveByDistances_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcOffsetCurveByDistances.htm" .
+
+clogi:IfcOrientationExpression a clog:SchematicConcept ;
+    rdfs:label "IfcOrientationExpression" ;
+    clog:hasChange clogi:Create_IfcOrientationExpression_1 .
+
+clogi:IfcPath a clog:SchematicConcept ;
+    rdfs:label "IfcPath" ;
+    clog:hasChange clogi:Update_IfcPath_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPath.htm" .
+
+clogi:IfcPile a clog:SchematicConcept ;
+    rdfs:label "IfcPile" ;
+    clog:hasChange clogi:Update_IfcPile_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPile.htm" .
+
+clogi:IfcPileType a clog:SchematicConcept ;
+    rdfs:label "IfcPileType" ;
+    clog:hasChange clogi:Update_IfcPileType_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPileType.htm" .
+
+clogi:IfcPlateTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcPlateTypeEnum" ;
+    clog:hasChange clogi:Create_IfcPlateTypeEnum_1,
+        clogi:Create_IfcPlateTypeEnum_2,
+        clogi:Create_IfcPlateTypeEnum_3,
+        clogi:Create_IfcPlateTypeEnum_4,
+        clogi:Create_IfcPlateTypeEnum_5,
+        clogi:Create_IfcPlateTypeEnum_6,
+        clogi:Create_IfcPlateTypeEnum_7 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPlateTypeEnum.htm" .
+
+clogi:IfcPolyLoop a clog:SchematicConcept ;
+    rdfs:label "IfcPolyLoop" ;
+    clog:hasChange clogi:Update_IfcPolyLoop_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPolyLoop.htm" .
+
+clogi:IfcPositioningElement a clog:SchematicConcept ;
+    rdfs:label "IfcPositioningElement" ;
+    clog:hasChange clogi:Create_IfcPositioningElement_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPositioningElement.htm" .
+
+clogi:IfcPresentationLayerWithStyle a clog:SchematicConcept ;
+    rdfs:label "IfcPresentationLayerWithStyle" ;
+    clog:hasChange clogi:Create_IfcPresentationLayerWithStyle_1,
+        clogi:Delete_IfcPresentationLayerWithStyle_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPresentationLayerWithStyle.htm" .
+
+clogi:IfcPresentationStyleAssignment a clog:SchematicConcept ;
+    rdfs:label "IfcPresentationStyleAssignment" ;
+    clog:hasChange clogi:Update_IfcPresentationStyleAssignment_1 .
+
+clogi:IfcProduct a clog:SchematicConcept ;
+    rdfs:label "IfcProduct" ;
+    clog:hasChange clogi:Create_IfcProduct_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcProduct.htm" .
+
+clogi:IfcProjectionElementTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcProjectionElementTypeEnum" ;
+    clog:hasChange clogi:Create_IfcProjectionElementTypeEnum_1,
+        clogi:Create_IfcProjectionElementTypeEnum_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcProjectionElementTypeEnum.htm" .
+
+clogi:IfcPropertyEnumeration a clog:SchematicConcept ;
+    rdfs:label "IfcPropertyEnumeration" ;
+    clog:hasChange clogi:Update_IfcPropertyEnumeration_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPropertyEnumeration.htm" .
+
+clogi:IfcPropertyTableValue a clog:SchematicConcept ;
+    rdfs:label "IfcPropertyTableValue" ;
+    clog:hasChange clogi:Update_IfcPropertyTableValue_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcPropertyTableValue.htm" .
+
+clogi:IfcProxy a clog:SchematicConcept ;
+    rdfs:label "IfcProxy" ;
+    clog:hasChange clogi:Update_IfcProxy_1 .
+
+clogi:IfcReferent a clog:SchematicConcept ;
+    rdfs:label "IfcReferent" ;
+    clog:hasChange clogi:Create_IfcReferent_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcReferent.htm" .
+
+clogi:IfcReferentTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcReferentTypeEnum" ;
+    clog:hasChange clogi:Create_IfcReferentTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcReferentTypeEnum.htm" .
+
+clogi:IfcReinforcingBarTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcReinforcingBarTypeEnum" ;
+    clog:hasChange clogi:Create_IfcReinforcingBarTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcReinforcingBarTypeEnum.htm" .
+
+clogi:IfcRelCoversSpaces a clog:SchematicConcept ;
+    rdfs:label "IfcRelCoversSpaces" ;
+    clog:hasChange clogi:Update_IfcRelCoversSpaces_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcRelCoversSpaces.htm" .
+
+clogi:IfcRelInterferesElements a clog:SchematicConcept ;
+    rdfs:label "IfcRelInterferesElements" ;
+    clog:hasChange clogi:Create_IfcRelInterferesElements_1,
+        clogi:Delete_IfcRelInterferesElements_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcRelInterferesElements.htm" .
+
+clogi:IfcRelPositions a clog:SchematicConcept ;
+    rdfs:label "IfcRelPositions" ;
+    clog:hasChange clogi:Create_IfcRelPositions_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcRelPositions.htm" .
+
+clogi:IfcResourceObjectSelect a clog:SchematicConcept ;
+    rdfs:label "IfcResourceObjectSelect" ;
+    clog:hasChange clogi:Create_IfcResourceObjectSelect_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcResourceObjectSelect.htm" .
+
+clogi:IfcSectionedSolid a clog:SchematicConcept ;
+    rdfs:label "IfcSectionedSolid" ;
+    clog:hasChange clogi:Create_IfcSectionedSolid_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcSectionedSolid.htm" .
+
+clogi:IfcSectionedSolidHorizontal a clog:SchematicConcept ;
+    rdfs:label "IfcSectionedSolidHorizontal" ;
+    clog:hasChange clogi:Create_IfcSectionedSolidHorizontal_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcSectionedSolidHorizontal.htm" .
+
+clogi:IfcShapeAspect a clog:SchematicConcept ;
+    rdfs:label "IfcShapeAspect" ;
+    clog:hasChange clogi:Create_IfcShapeAspect_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcShapeAspect.htm" .
+
+clogi:IfcSlabTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcSlabTypeEnum" ;
+    clog:hasChange clogi:Create_IfcSlabTypeEnum_1,
+        clogi:Create_IfcSlabTypeEnum_2,
+        clogi:Create_IfcSlabTypeEnum_3,
+        clogi:Create_IfcSlabTypeEnum_4 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcSlabTypeEnum.htm" .
+
+clogi:IfcStructuralLoadConfiguration a clog:SchematicConcept ;
+    rdfs:label "IfcStructuralLoadConfiguration" ;
+    clog:hasChange clogi:Update_IfcStructuralLoadConfiguration_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcStructuralLoadConfiguration.htm" .
+
+clogi:IfcSurfaceFeatureTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcSurfaceFeatureTypeEnum" ;
+    clog:hasChange clogi:Create_IfcSurfaceFeatureTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcSurfaceFeatureTypeEnum.htm" .
+
+clogi:IfcTendonConduit a clog:SchematicConcept ;
+    rdfs:label "IfcTendonConduit" ;
+    clog:hasChange clogi:Create_IfcTendonConduit_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcTendonConduit.htm" .
+
+clogi:IfcTendonConduitType a clog:SchematicConcept ;
+    rdfs:label "IfcTendonConduitType" ;
+    clog:hasChange clogi:Create_IfcTendonConduitType_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcTendonConduitType.htm" .
+
+clogi:IfcTendonConduitTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcTendonConduitTypeEnum" ;
+    clog:hasChange clogi:Create_IfcTendonConduitTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcTendonConduitTypeEnum.htm" .
+
+clogi:IfcTransitionCurveSegment2D a clog:SchematicConcept ;
+    rdfs:label "IfcTransitionCurveSegment2D" ;
+    clog:hasChange clogi:Create_IfcTransitionCurveSegment2D_1 .
+
+clogi:IfcTransitionCurveType a clog:SchematicConcept ;
+    rdfs:label "IfcTransitionCurveType" ;
+    clog:hasChange clogi:Create_IfcTransitionCurveType_1 .
+
+clogi:IfcTriangulatedIrregularNetwork a clog:SchematicConcept ;
+    rdfs:label "IfcTriangulatedIrregularNetwork" ;
+    clog:hasChange clogi:Create_IfcTriangulatedIrregularNetwork_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcTriangulatedIrregularNetwork.htm" .
+
+clogi:IfcTypeProduct a clog:SchematicConcept ;
+    rdfs:label "IfcTypeProduct" ;
+    clog:hasChange clogi:Update_IfcTypeProduct_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcTypeProduct.htm" .
+
+clogi:IfcVibrationDamper a clog:SchematicConcept ;
+    rdfs:label "IfcVibrationDamper" ;
+    clog:hasChange clogi:Create_IfcVibrationDamper_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcVibrationDamper.htm" .
+
+clogi:IfcVibrationDamperType a clog:SchematicConcept ;
+    rdfs:label "IfcVibrationDamperType" ;
+    clog:hasChange clogi:Create_IfcVibrationDamperType_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcVibrationDamperType.htm" .
+
+clogi:IfcVibrationDamperTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcVibrationDamperTypeEnum" ;
+    clog:hasChange clogi:Create_IfcVibrationDamperTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcVibrationDamperTypeEnum.htm" .
+
+clogi:IfcVibrationIsolatorTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcVibrationIsolatorTypeEnum" ;
+    clog:hasChange clogi:Create_IfcVibrationIsolatorTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcVibrationIsolatorTypeEnum.htm" .
+
+clogi:IfcVirtualGridIntersection a clog:SchematicConcept ;
+    rdfs:label "IfcVirtualGridIntersection" ;
+    clog:hasChange clogi:Update_IfcVirtualGridIntersection_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcVirtualGridIntersection.htm" .
+
+clogi:IfcWallTypeEnum a clog:SchematicConcept ;
+    rdfs:label "IfcWallTypeEnum" ;
+    clog:hasChange clogi:Create_IfcWallTypeEnum_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcWallTypeEnum.htm" .
+
+clogi:Pset_ActuatorTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ActuatorTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_ActuatorTypeCommon_1,
+        clogi:Update_Pset_ActuatorTypeCommon_2,
+        clogi:Update_Pset_ActuatorTypeCommon_3 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_ActuatorTypeCommon.htm" .
+
+clogi:Pset_AirToAirHeatRecoveryTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_AirToAirHeatRecoveryTypeCommon" ;
+    clog:hasChange clogi:Create_Pset_AirToAirHeatRecoveryTypeCommon_1,
+        clogi:Delete_Pset_AirToAirHeatRecoveryTypeCommon_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_AirToAirHeatRecoveryTypeCommon.htm" .
+
+clogi:Pset_BeamCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_BeamCommon" ;
+    clog:hasChange clogi:Update_Pset_BeamCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_BeamCommon.htm" .
+
+clogi:Pset_BearingCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_BearingCommon" ;
+    clog:hasChange clogi:Create_Pset_BearingCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_BearingCommon.htm" .
+
+clogi:Pset_BridgeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_BridgeCommon" ;
+    clog:hasChange clogi:Create_Pset_BridgeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_BridgeCommon.htm" .
+
+clogi:Pset_CivilElementCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_CivilElementCommon" ;
+    clog:hasChange clogi:Update_Pset_CivilElementCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_CivilElementCommon.htm" .
+
+clogi:Pset_CoilTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_CoilTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_CoilTypeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_CoilTypeCommon.htm" .
+
+clogi:Pset_CondenserTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_CondenserTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_CondenserTypeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_CondenserTypeCommon.htm" .
+
+clogi:Pset_CooledBeamTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_CooledBeamTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_CooledBeamTypeCommon_1,
+        clogi:Update_Pset_CooledBeamTypeCommon_2,
+        clogi:Update_Pset_CooledBeamTypeCommon_3,
+        clogi:Update_Pset_CooledBeamTypeCommon_4 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_CooledBeamTypeCommon.htm" .
+
+clogi:Pset_DistributionPortTypeCable a clog:SchematicConcept ;
+    rdfs:label "Pset_DistributionPortTypeCable" ;
+    clog:hasChange clogi:Update_Pset_DistributionPortTypeCable_1,
+        clogi:Update_Pset_DistributionPortTypeCable_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_DistributionPortTypeCable.htm" .
+
+clogi:Pset_ElectricFlowStorageDevicePHistory a clog:SchematicConcept ;
+    rdfs:label "Pset_ElectricFlowStorageDevicePHistory" ;
+    clog:hasChange clogi:Delete_Pset_ElectricFlowStorageDevicePHistory_1 .
+
+clogi:Pset_ElectricFlowStorageDeviceTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ElectricFlowStorageDeviceTypeCommon" ;
+    clog:hasChange clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_1,
+        clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_2,
+        clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_3,
+        clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_4 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_ElectricFlowStorageDeviceTypeCommon.htm" .
+
+clogi:Pset_ElectricalDeviceCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ElectricalDeviceCommon" ;
+    clog:hasChange clogi:Update_Pset_ElectricalDeviceCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_ElectricalDeviceCommon.htm" .
+
+clogi:Pset_ElementAssemblyCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ElementAssemblyCommon" ;
+    clog:hasChange clogi:Update_Pset_ElementAssemblyCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_ElementAssemblyCommon.htm" .
+
+clogi:Pset_ElementComponentCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ElementComponentCommon" ;
+    clog:hasChange clogi:Update_Pset_ElementComponentCommon_1,
+        clogi:Update_Pset_ElementComponentCommon_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_ElementComponentCommon.htm" .
+
+clogi:Pset_FurnitureTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_FurnitureTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_FurnitureTypeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_FurnitureTypeCommon.htm" .
+
+clogi:Pset_LampTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_LampTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_LampTypeCommon_1,
+        clogi:Update_Pset_LampTypeCommon_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_LampTypeCommon.htm" .
+
+clogi:Pset_MechanicalFastenerCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_MechanicalFastenerCommon" ;
+    clog:hasChange clogi:Delete_Pset_MechanicalFastenerCommon_1 .
+
+clogi:Pset_PileCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_PileCommon" ;
+    clog:hasChange clogi:Update_Pset_PileCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_PileCommon.htm" .
+
+clogi:Pset_ReinforcingBarCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ReinforcingBarCommon" ;
+    clog:hasChange clogi:Delete_Pset_ReinforcingBarCommon_1 .
+
+clogi:Pset_ReinforcingMeshCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ReinforcingMeshCommon" ;
+    clog:hasChange clogi:Delete_Pset_ReinforcingMeshCommon_1 .
+
+clogi:Pset_SanitaryTerminalTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_SanitaryTerminalTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_SanitaryTerminalTypeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_SanitaryTerminalTypeCommon.htm" .
+
+clogi:Pset_SensorTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_SensorTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_SensorTypeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_SensorTypeCommon.htm" .
+
+clogi:Pset_SolarDeviceTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_SolarDeviceTypeCommon" ;
+    clog:hasChange clogi:Delete_Pset_SolarDeviceTypeCommon_1,
+        clogi:Delete_Pset_SolarDeviceTypeCommon_2,
+        clogi:Update_Pset_SolarDeviceTypeCommon_3 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_SolarDeviceTypeCommon.htm" .
+
+clogi:Pset_TankOccurrence a clog:SchematicConcept ;
+    rdfs:label "Pset_TankOccurrence" ;
+    clog:hasChange clogi:Update_Pset_TankOccurrence_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_TankOccurrence.htm" .
+
+clogi:Pset_TankPHistory a clog:SchematicConcept ;
+    rdfs:label "Pset_TankPHistory" ;
+    clog:hasChange clogi:Delete_Pset_TankPHistory_1 .
+
+clogi:Pset_TendonAnchorCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_TendonAnchorCommon" ;
+    clog:hasChange clogi:Delete_Pset_TendonAnchorCommon_1 .
+
+clogi:Pset_TendonCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_TendonCommon" ;
+    clog:hasChange clogi:Delete_Pset_TendonCommon_1 .
+
+clogi:Pset_TransformerTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_TransformerTypeCommon" ;
+    clog:hasChange clogi:Delete_Pset_TransformerTypeCommon_1,
+        clogi:Delete_Pset_TransformerTypeCommon_2 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_TransformerTypeCommon.htm" .
+
+clogi:Pset_ValveTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_ValveTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_ValveTypeCommon_1,
+        clogi:Update_Pset_ValveTypeCommon_2,
+        clogi:Update_Pset_ValveTypeCommon_3 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_ValveTypeCommon.htm" .
+
+clogi:Pset_VibrationIsolatorTypeCommon a clog:SchematicConcept ;
+    rdfs:label "Pset_VibrationIsolatorTypeCommon" ;
+    clog:hasChange clogi:Update_Pset_VibrationIsolatorTypeCommon_1 ;
+    clog:link "https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/Pset_VibrationIsolatorTypeCommon.htm" .
+
+<http://www.semantic.org/zeyupan/ontologies/change_log_ontology> a owl:Ontology ;
+    rdfs:label "Change Log Ontology" ;
+    dcterms:creator ( [ a schema:Person ;
+                schema:email "panzeyu@sjtu.edu.cn" ;
+                schema:name "Pan Zeyu" ] ) ;
+    dcterms:issued "2025-03-17" ;
+    dcterms:modified "2025-03-17" .
+
+clog:ApplicabilityChangeLoc a owl:Class ;
+    rdfs:label "ApplicabilityChangeLocation" ;
+    rdfs:comment "ApplicabilityChangeLocation is a class that represents the location of a change in an application." ;
+    rdfs:subClassOf clog:PSetChangeLocation .
+
+clog:TypeChangeLoc a owl:Class ;
+    rdfs:label "TypeChangeLocation" ;
+    rdfs:comment "TypeChangeLocation is a class that represents the location of a change in a type." ;
+    rdfs:subClassOf clog:PSetChangeLocation .
+
+clog:UniqueRuleChangeLoc a owl:Class ;
+    rdfs:label "UniqueRuleChangeLocation" ;
+    rdfs:comment "UniqueRuleChangeLocation is a class that represents the location of a change in a where rule." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:changed a owl:DatatypeProperty ;
+    rdfs:label "changed" ;
+    rdfs:comment "changed is a property that represents the changed concept." ;
+    rdfs:domain clog:ChangeLocation ;
+    rdfs:range xsd:string .
+
+clog:data_feather a owl:DatatypeProperty ;
+    rdfs:label "data feather" ;
+    rdfs:comment "data feather is a property that represents the data feather of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range xsd:string .
+
+clog:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:comment "description is a property that represents the description of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range xsd:string .
+
+clog:isChangeOf a owl:ObjectProperty ;
+    rdfs:label "isChangeOf" ;
+    rdfs:comment "isChangeOf is a property that represents the concept of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range clog:SchematicConcept ;
+    owl:inverseOf clog:hasChange .
+
+clog:isLocationOf a owl:ObjectProperty ;
+    rdfs:label "isLocationOf" ;
+    rdfs:comment "isLocationOf is a property that represents the location of a change." ;
+    rdfs:domain clog:ChangeLocation ;
+    rdfs:range clog:BaseChange ;
+    owl:inverseOf clog:hasLocation .
+
+clog:link a owl:DatatypeProperty ;
+    rdfs:label "link" ;
+    rdfs:comment "link is a property that represents the link of a concept." ;
+    rdfs:domain clog:SchematicConcept ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+clogi:Create_IfcAlignment2DHorizontalSegment_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DHorizontalSegment_1 .
+
+clogi:Create_IfcAlignment2DHorizontal_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DHorizontal_1 .
+
+clogi:Create_IfcAlignment2DSegment_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DSegment_1 .
+
+clogi:Create_IfcAlignment2DVerSegCircularArc_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DVerSegCircularArc_1 .
+
+clogi:Create_IfcAlignment2DVerSegLine_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DVerSegLine_1 .
+
+clogi:Create_IfcAlignment2DVerSegParabolicArc_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DVerSegParabolicArc_1 .
+
+clogi:Create_IfcAlignment2DVerticalSegment_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DVerticalSegment_1 .
+
+clogi:Create_IfcAlignment2DVertical_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment2DVertical_1 .
+
+clogi:Create_IfcAlignmentCurve_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignmentCurve_1 .
+
+clogi:Create_IfcAlignmentTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignmentTypeEnum_1 .
+
+clogi:Create_IfcAlignment_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcAlignment_1 .
+
+clogi:Create_IfcBeamTypeEnum_1 a clog:Create ;
+    clog:description "CORNICE" ;
+    clog:hasLocation clogi:Location_IfcBeamTypeEnum_1 .
+
+clogi:Create_IfcBeamTypeEnum_2 a clog:Create ;
+    clog:description "DIAPHRAGM" ;
+    clog:hasLocation clogi:Location_IfcBeamTypeEnum_2 .
+
+clogi:Create_IfcBeamTypeEnum_3 a clog:Create ;
+    clog:description "EDGEBEAM" ;
+    clog:hasLocation clogi:Location_IfcBeamTypeEnum_3 .
+
+clogi:Create_IfcBeamTypeEnum_4 a clog:Create ;
+    clog:description "GIRDER_SEGMENT" ;
+    clog:hasLocation clogi:Location_IfcBeamTypeEnum_4 .
+
+clogi:Create_IfcBeamTypeEnum_5 a clog:Create ;
+    clog:description "HATSTONE" ;
+    clog:hasLocation clogi:Location_IfcBeamTypeEnum_5 .
+
+clogi:Create_IfcBeamTypeEnum_6 a clog:Create ;
+    clog:description "PIERCAP" ;
+    clog:hasLocation clogi:Location_IfcBeamTypeEnum_6 .
+
+clogi:Create_IfcBearingTypeDisplacementEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBearingTypeDisplacementEnum_1 .
+
+clogi:Create_IfcBearingTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBearingTypeEnum_1 .
+
+clogi:Create_IfcBearingType_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBearingType_1 .
+
+clogi:Create_IfcBearing_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBearing_1 .
+
+clogi:Create_IfcBoundedCurve_1 a clog:Create ;
+    clog:description "PositioningElement" ;
+    clog:hasLocation clogi:Location_IfcBoundedCurve_1 .
+
+clogi:Create_IfcBridgePartTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBridgePartTypeEnum_1 .
+
+clogi:Create_IfcBridgePart_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBridgePart_1 .
+
+clogi:Create_IfcBridgeTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBridgeTypeEnum_1 .
+
+clogi:Create_IfcBridge_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcBridge_1 .
+
+clogi:Create_IfcBuildingElementPartTypeEnum_1 a clog:Create ;
+    clog:description "APRON" ;
+    clog:hasLocation clogi:Location_IfcBuildingElementPartTypeEnum_1 .
+
+clogi:Create_IfcBuildingSystemTypeEnum_1 a clog:Create ;
+    clog:description "PRESTRESSING" ;
+    clog:hasLocation clogi:Location_IfcBuildingSystemTypeEnum_1 .
+
+clogi:Create_IfcBuildingSystemTypeEnum_2 a clog:Create ;
+    clog:description "REINFORCING" ;
+    clog:hasLocation clogi:Location_IfcBuildingSystemTypeEnum_2 .
+
+clogi:Create_IfcCaissonFoundationTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcCaissonFoundationTypeEnum_1 .
+
+clogi:Create_IfcCaissonFoundationType_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcCaissonFoundationType_1 .
+
+clogi:Create_IfcCaissonFoundation_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcCaissonFoundation_1 .
+
+clogi:Create_IfcCartesianPointList2D_1 a clog:Create ;
+    clog:description "TagList" ;
+    clog:hasLocation clogi:Location_IfcCartesianPointList2D_1 .
+
+clogi:Create_IfcCartesianPointList3D_1 a clog:Create ;
+    clog:description "TagList" ;
+    clog:hasLocation clogi:Location_IfcCartesianPointList3D_1 .
+
+clogi:Create_IfcCircularArcSegment2D_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcCircularArcSegment2D_1 .
+
+clogi:Create_IfcColumnTypeEnum_1 a clog:Create ;
+    clog:description "PIERSTEM" ;
+    clog:hasLocation clogi:Location_IfcColumnTypeEnum_1 .
+
+clogi:Create_IfcColumnTypeEnum_2 a clog:Create ;
+    clog:description "PIERSTEM_SEGMENT" ;
+    clog:hasLocation clogi:Location_IfcColumnTypeEnum_2 .
+
+clogi:Create_IfcColumnTypeEnum_3 a clog:Create ;
+    clog:description "STANDCOLUMN" ;
+    clog:hasLocation clogi:Location_IfcColumnTypeEnum_3 .
+
+clogi:Create_IfcCoveringTypeEnum_1 a clog:Create ;
+    clog:description "COPING" ;
+    clog:hasLocation clogi:Location_IfcCoveringTypeEnum_1 .
+
+clogi:Create_IfcCurveSegment2D_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcCurveSegment2D_1 .
+
+clogi:Create_IfcDeepFoundationType_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcDeepFoundationType_1 .
+
+clogi:Create_IfcDeepFoundation_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcDeepFoundation_1 .
+
+clogi:Create_IfcDiscreteAccessoryTypeEnum_1 a clog:Create ;
+    clog:description "EXPANSION_JOINT_DEVICE" ;
+    clog:hasLocation clogi:Location_IfcDiscreteAccessoryTypeEnum_1 .
+
+clogi:Create_IfcDistanceExpression_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcDistanceExpression_1 .
+
+clogi:Create_IfcElementAssemblyTypeEnum_1 a clog:Create ;
+    clog:description "ABUTMENT" ;
+    clog:hasLocation clogi:Location_IfcElementAssemblyTypeEnum_1 .
+
+clogi:Create_IfcElementAssemblyTypeEnum_2 a clog:Create ;
+    clog:description "CROSS_BRACING" ;
+    clog:hasLocation clogi:Location_IfcElementAssemblyTypeEnum_2 .
+
+clogi:Create_IfcElementAssemblyTypeEnum_3 a clog:Create ;
+    clog:description "DECK" ;
+    clog:hasLocation clogi:Location_IfcElementAssemblyTypeEnum_3 .
+
+clogi:Create_IfcElementAssemblyTypeEnum_4 a clog:Create ;
+    clog:description "PIER" ;
+    clog:hasLocation clogi:Location_IfcElementAssemblyTypeEnum_4 .
+
+clogi:Create_IfcElementAssemblyTypeEnum_5 a clog:Create ;
+    clog:description "PYLON" ;
+    clog:hasLocation clogi:Location_IfcElementAssemblyTypeEnum_5 .
+
+clogi:Create_IfcFacilityPart_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcFacilityPart_1 .
+
+clogi:Create_IfcFacility_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcFacility_1 .
+
+clogi:Create_IfcGeographicElementTypeEnum_1 a clog:Create ;
+    clog:description "SOIL_BORING_POINT" ;
+    clog:hasLocation clogi:Location_IfcGeographicElementTypeEnum_1 .
+
+clogi:Create_IfcLineSegment2D_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcLineSegment2D_1 .
+
+clogi:Create_IfcLinearPlacement_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcLinearPlacement_1 .
+
+clogi:Create_IfcLinearPositioningElement_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcLinearPositioningElement_1 .
+
+clogi:Create_IfcMechanicalFastenerTypeEnum_1 a clog:Create ;
+    clog:description "COUPLER" ;
+    clog:hasLocation clogi:Location_IfcMechanicalFastenerTypeEnum_1 .
+
+clogi:Create_IfcMemberTypeEnum_1 a clog:Create ;
+    clog:description "ARCH_SEGMENT" ;
+    clog:hasLocation clogi:Location_IfcMemberTypeEnum_1 .
+
+clogi:Create_IfcMemberTypeEnum_2 a clog:Create ;
+    clog:description "STAY_CABLE" ;
+    clog:hasLocation clogi:Location_IfcMemberTypeEnum_2 .
+
+clogi:Create_IfcMemberTypeEnum_3 a clog:Create ;
+    clog:description "STIFFENING_RIB" ;
+    clog:hasLocation clogi:Location_IfcMemberTypeEnum_3 .
+
+clogi:Create_IfcMemberTypeEnum_4 a clog:Create ;
+    clog:description "SUSPENDER" ;
+    clog:hasLocation clogi:Location_IfcMemberTypeEnum_4 .
+
+clogi:Create_IfcMemberTypeEnum_5 a clog:Create ;
+    clog:description "SUSPENSION_CABLE" ;
+    clog:hasLocation clogi:Location_IfcMemberTypeEnum_5 .
+
+clogi:Create_IfcObjectPlacement_1 a clog:Create ;
+    clog:description "PlacementRelTo" ;
+    clog:hasLocation clogi:Location_IfcObjectPlacement_1 .
+
+clogi:Create_IfcOffsetCurveByDistances_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcOffsetCurveByDistances_1 .
+
+clogi:Create_IfcOffsetCurve_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcOffsetCurve_1 .
+
+clogi:Create_IfcOrientationExpression_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcOrientationExpression_1 .
+
+clogi:Create_IfcPlateTypeEnum_1 a clog:Create ;
+    clog:description "BASE_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_1 .
+
+clogi:Create_IfcPlateTypeEnum_2 a clog:Create ;
+    clog:description "COVER_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_2 .
+
+clogi:Create_IfcPlateTypeEnum_3 a clog:Create ;
+    clog:description "FLANGE_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_3 .
+
+clogi:Create_IfcPlateTypeEnum_4 a clog:Create ;
+    clog:description "GUSSET_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_4 .
+
+clogi:Create_IfcPlateTypeEnum_5 a clog:Create ;
+    clog:description "SPLICE_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_5 .
+
+clogi:Create_IfcPlateTypeEnum_6 a clog:Create ;
+    clog:description "STIFFENER_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_6 .
+
+clogi:Create_IfcPlateTypeEnum_7 a clog:Create ;
+    clog:description "WEB_PLATE" ;
+    clog:hasLocation clogi:Location_IfcPlateTypeEnum_7 .
+
+clogi:Create_IfcPositioningElement_1 a clog:Create ;
+    clog:description "",
+        "Positions" ;
+    clog:hasLocation clogi:Location_IfcPositioningElement_1 .
+
+clogi:Create_IfcPresentationLayerWithStyle_1 a clog:Create ;
+    clog:description "ApplicableOnlyToItems" ;
+    clog:hasLocation clogi:Location_IfcPresentationLayerWithStyle_1 .
+
+clogi:Create_IfcProduct_1 a clog:Create ;
+    clog:description "PositionedRelativeTo" ;
+    clog:hasLocation clogi:Location_IfcProduct_1 .
+
+clogi:Create_IfcProjectionElementTypeEnum_1 a clog:Create ;
+    clog:description "BLISTER" ;
+    clog:hasLocation clogi:Location_IfcProjectionElementTypeEnum_1 .
+
+clogi:Create_IfcProjectionElementTypeEnum_2 a clog:Create ;
+    clog:description "DEVIATOR" ;
+    clog:hasLocation clogi:Location_IfcProjectionElementTypeEnum_2 .
+
+clogi:Create_IfcReferentTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcReferentTypeEnum_1 .
+
+clogi:Create_IfcReferent_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcReferent_1 .
+
+clogi:Create_IfcReinforcingBarTypeEnum_1 a clog:Create ;
+    clog:description "SPACEBAR" ;
+    clog:hasLocation clogi:Location_IfcReinforcingBarTypeEnum_1 .
+
+clogi:Create_IfcRelInterferesElements_1 a clog:Create ;
+    clog:description "NoSelfReference" ;
+    clog:hasLocation clogi:Location_IfcRelInterferesElements_1 .
+
+clogi:Create_IfcRelPositions_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcRelPositions_1 .
+
+clogi:Create_IfcResourceObjectSelect_1 a clog:Create ;
+    clog:description "<a href=\"lexical/IfcShapeAspect.htm\">IfcShapeAspect</a>" ;
+    clog:hasLocation clogi:Location_IfcResourceObjectSelect_1 .
+
+clogi:Create_IfcSectionedSolidHorizontal_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcSectionedSolidHorizontal_1 .
+
+clogi:Create_IfcSectionedSolid_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcSectionedSolid_1 .
+
+clogi:Create_IfcShapeAspect_1 a clog:Create ;
+    clog:description "HasExternalReferences" ;
+    clog:hasLocation clogi:Location_IfcShapeAspect_1 .
+
+clogi:Create_IfcSlabTypeEnum_1 a clog:Create ;
+    clog:description "APPROACH_SLAB" ;
+    clog:hasLocation clogi:Location_IfcSlabTypeEnum_1 .
+
+clogi:Create_IfcSlabTypeEnum_2 a clog:Create ;
+    clog:description "PAVING" ;
+    clog:hasLocation clogi:Location_IfcSlabTypeEnum_2 .
+
+clogi:Create_IfcSlabTypeEnum_3 a clog:Create ;
+    clog:description "SIDEWALK" ;
+    clog:hasLocation clogi:Location_IfcSlabTypeEnum_3 .
+
+clogi:Create_IfcSlabTypeEnum_4 a clog:Create ;
+    clog:description "WEARING" ;
+    clog:hasLocation clogi:Location_IfcSlabTypeEnum_4 .
+
+clogi:Create_IfcSurfaceFeatureTypeEnum_1 a clog:Create ;
+    clog:description "DEFECT" ;
+    clog:hasLocation clogi:Location_IfcSurfaceFeatureTypeEnum_1 .
+
+clogi:Create_IfcTendonConduitTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcTendonConduitTypeEnum_1 .
+
+clogi:Create_IfcTendonConduitType_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcTendonConduitType_1 .
+
+clogi:Create_IfcTendonConduit_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcTendonConduit_1 .
+
+clogi:Create_IfcTransitionCurveSegment2D_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcTransitionCurveSegment2D_1 .
+
+clogi:Create_IfcTransitionCurveType_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcTransitionCurveType_1 .
+
+clogi:Create_IfcTriangulatedIrregularNetwork_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcTriangulatedIrregularNetwork_1 .
+
+clogi:Create_IfcVibrationDamperTypeEnum_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcVibrationDamperTypeEnum_1 .
+
+clogi:Create_IfcVibrationDamperType_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcVibrationDamperType_1 .
+
+clogi:Create_IfcVibrationDamper_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcVibrationDamper_1 .
+
+clogi:Create_IfcVibrationIsolatorTypeEnum_1 a clog:Create ;
+    clog:description "BASE" ;
+    clog:hasLocation clogi:Location_IfcVibrationIsolatorTypeEnum_1 .
+
+clogi:Create_IfcWallTypeEnum_1 a clog:Create ;
+    clog:description "RETAININGWALL" ;
+    clog:hasLocation clogi:Location_IfcWallTypeEnum_1 .
+
+clogi:Create_Pset_AirToAirHeatRecoveryTypeCommon_1 a clog:Create ;
+    clog:description "HeatTransferTypeEnum" ;
+    clog:hasLocation clogi:Location_Pset_AirToAirHeatRecoveryTypeCommon_1 .
+
+clogi:Create_Pset_BearingCommon_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_BearingCommon_1 .
+
+clogi:Create_Pset_BridgeCommon_1 a clog:Create ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_BridgeCommon_1 .
+
+clogi:Delete_IfcGrid_1 a clog:Delete ;
+    clog:description "ContainedInStructure" ;
+    clog:hasLocation clogi:Location_IfcGrid_1 .
+
+clogi:Delete_IfcGrid_2 a clog:Delete ;
+    clog:description "HasPlacement" ;
+    clog:hasLocation clogi:Location_IfcGrid_2 .
+
+clogi:Delete_IfcLocalPlacement_1 a clog:Delete ;
+    clog:description "PlacementRelTo" ;
+    clog:hasLocation clogi:Location_IfcLocalPlacement_1 .
+
+clogi:Delete_IfcObjectPlacement_2 a clog:Delete ;
+    clog:description "ReferencedByPlacements" ;
+    clog:hasLocation clogi:Location_IfcObjectPlacement_2 .
+
+clogi:Delete_IfcOffsetCurve2D_1 a clog:Delete ;
+    clog:description "BasisCurve" ;
+    clog:hasLocation clogi:Location_IfcOffsetCurve2D_1 .
+
+clogi:Delete_IfcOffsetCurve3D_1 a clog:Delete ;
+    clog:description "BasisCurve" ;
+    clog:hasLocation clogi:Location_IfcOffsetCurve3D_1 .
+
+clogi:Delete_IfcPresentationLayerWithStyle_2 a clog:Delete ;
+    clog:description "ApplicableOnlyToItems" ;
+    clog:hasLocation clogi:Location_IfcPresentationLayerWithStyle_2 .
+
+clogi:Delete_IfcRelInterferesElements_2 a clog:Delete ;
+    clog:description "NotSelfReference" ;
+    clog:hasLocation clogi:Location_IfcRelInterferesElements_2 .
+
+clogi:Delete_Pset_AirToAirHeatRecoveryTypeCommon_2 a clog:Delete ;
+    clog:description "HeatTransferType" ;
+    clog:hasLocation clogi:Location_Pset_AirToAirHeatRecoveryTypeCommon_2 .
+
+clogi:Delete_Pset_ElectricFlowStorageDevicePHistory_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_ElectricFlowStorageDevicePHistory_1 .
+
+clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_1 a clog:Delete ;
+    clog:description "ModuleCapacity" ;
+    clog:hasLocation clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_1 .
+
+clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_2 a clog:Delete ;
+    clog:description "ModulesInParallel" ;
+    clog:hasLocation clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_2 .
+
+clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_3 a clog:Delete ;
+    clog:description "ModulesInSeries" ;
+    clog:hasLocation clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_3 .
+
+clogi:Delete_Pset_ElectricFlowStorageDeviceTypeCommon_4 a clog:Delete ;
+    clog:description "RadiativeFraction" ;
+    clog:hasLocation clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_4 .
+
+clogi:Delete_Pset_MechanicalFastenerCommon_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_MechanicalFastenerCommon_1 .
+
+clogi:Delete_Pset_ReinforcingBarCommon_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_ReinforcingBarCommon_1 .
+
+clogi:Delete_Pset_ReinforcingMeshCommon_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_ReinforcingMeshCommon_1 .
+
+clogi:Delete_Pset_SolarDeviceTypeCommon_1 a clog:Delete ;
+    clog:description "ActiveCellSurfaceAreaFraction" ;
+    clog:hasLocation clogi:Location_Pset_SolarDeviceTypeCommon_1 .
+
+clogi:Delete_Pset_SolarDeviceTypeCommon_2 a clog:Delete ;
+    clog:description "CellEfficiency" ;
+    clog:hasLocation clogi:Location_Pset_SolarDeviceTypeCommon_2 .
+
+clogi:Delete_Pset_TankPHistory_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_TankPHistory_1 .
+
+clogi:Delete_Pset_TendonAnchorCommon_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_TendonAnchorCommon_1 .
+
+clogi:Delete_Pset_TendonCommon_1 a clog:Delete ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_Pset_TendonCommon_1 .
+
+clogi:Delete_Pset_TransformerTypeCommon_1 a clog:Delete ;
+    clog:description "EfficiencyCurve" ;
+    clog:hasLocation clogi:Location_Pset_TransformerTypeCommon_1 .
+
+clogi:Delete_Pset_TransformerTypeCommon_2 a clog:Delete ;
+    clog:description "RadiativeFraction" ;
+    clog:hasLocation clogi:Location_Pset_TransformerTypeCommon_2 .
+
+clogi:Location_IfcAlignment2DHorizontalSegment_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DHorizontal_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DSegment_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DVerSegCircularArc_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DVerSegLine_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DVerSegParabolicArc_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DVerticalSegment_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment2DVertical_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignmentCurve_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignmentTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcAlignment_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBeamTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBeamTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBeamTypeEnum_3 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBeamTypeEnum_4 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBeamTypeEnum_5 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBeamTypeEnum_6 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBearingTypeDisplacementEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBearingTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBearingType_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBearing_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBoundedCurve_1 a clog:InverseAttributeChangeLoc ;
+    rdfs:comment "inverse attribute" .
+
+clogi:Location_IfcBridgePartTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBridgePart_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBridgeTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBridge_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcBuildingElementPartTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBuildingStorey_1 a clog:SupertypeChangeLoc ;
+    rdfs:comment "supertype" .
+
+clogi:Location_IfcBuildingSystemTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBuildingSystemTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcBuilding_1 a clog:SupertypeChangeLoc ;
+    rdfs:comment "supertype" .
+
+clogi:Location_IfcCaissonFoundationTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcCaissonFoundationType_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcCaissonFoundation_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcCartesianPointList2D_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:comment "attribute" .
+
+clogi:Location_IfcCartesianPointList3D_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:comment "attribute" .
+
+clogi:Location_IfcCircularArcSegment2D_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcColumnTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcColumnTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcColumnTypeEnum_3 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcCoveringTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcCurveDim_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcCurveSegment2D_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcDeepFoundationType_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcDeepFoundation_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcDiscreteAccessoryTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcDistanceExpression_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcElementAssemblyTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcElementAssemblyTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcElementAssemblyTypeEnum_3 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcElementAssemblyTypeEnum_4 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcElementAssemblyTypeEnum_5 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcFaceBasedSurfaceModel_1 a clog:DeprecatedChangeLoc ;
+    rdfs:comment "deprecated" .
+
+clogi:Location_IfcFacilityPart_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcFacility_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcGeographicElementTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcGrid_3 a clog:DirectAttributeChangeLoc,
+        clog:SupertypeChangeLoc ;
+    rdfs:label "WAxes" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute WAxes type",
+        "supertype" .
+
+clogi:Location_IfcIndexedPolygonalFaceWithVoids_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "InnerCoordIndices" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute InnerCoordIndices type" .
+
+clogi:Location_IfcLineSegment2D_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcLocalPlacement_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:comment "attribute" .
+
+clogi:Location_IfcMaterialClassificationRelationship_1 a clog:DeprecatedChangeLoc ;
+    rdfs:comment "deprecated" .
+
+clogi:Location_IfcMaterialList_1 a clog:DeprecatedChangeLoc ;
+    rdfs:comment "deprecated" .
+
+clogi:Location_IfcMechanicalFastenerTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcMemberTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcMemberTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcMemberTypeEnum_3 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcMemberTypeEnum_4 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcMemberTypeEnum_5 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcObjectPlacement_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:comment "attribute" .
+
+clogi:Location_IfcObjectPlacement_2 a clog:InverseAttributeChangeLoc ;
+    rdfs:comment "inverse attribute" .
+
+clogi:Location_IfcOffsetCurve2D_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:comment "attribute" .
+
+clogi:Location_IfcOffsetCurve2D_2 a clog:SupertypeChangeLoc ;
+    rdfs:comment "supertype" .
+
+clogi:Location_IfcOffsetCurve3D_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:comment "attribute" .
+
+clogi:Location_IfcOffsetCurve3D_2 a clog:SupertypeChangeLoc ;
+    rdfs:comment "supertype" .
+
+clogi:Location_IfcOffsetCurveByDistances_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcOffsetCurve_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcOrientationExpression_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcPath_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "EdgeList" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute EdgeList type" .
+
+clogi:Location_IfcPileType_1 a clog:SupertypeChangeLoc ;
+    rdfs:comment "supertype" .
+
+clogi:Location_IfcPile_1 a clog:SupertypeChangeLoc ;
+    rdfs:comment "supertype" .
+
+clogi:Location_IfcPlateTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPlateTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPlateTypeEnum_3 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPlateTypeEnum_4 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPlateTypeEnum_5 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPlateTypeEnum_6 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPlateTypeEnum_7 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPolyLoop_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "Polygon" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute Polygon type" .
+
+clogi:Location_IfcPositioningElement_1 a clog:InverseAttributeChangeLoc,
+        clog:UndefinedChangeLoc ;
+    rdfs:comment "",
+        "inverse attribute" .
+
+clogi:Location_IfcPresentationLayerWithStyle_1 a clog:WhereRuleChangeLoc ;
+    rdfs:comment "where rule" .
+
+clogi:Location_IfcPresentationLayerWithStyle_2 a clog:WhereRuleChangeLoc ;
+    rdfs:comment "where rule" .
+
+clogi:Location_IfcPresentationStyleAssignment_1 a clog:DeprecatedChangeLoc ;
+    rdfs:comment "deprecated" .
+
+clogi:Location_IfcProduct_1 a clog:InverseAttributeChangeLoc ;
+    rdfs:comment "inverse attribute" .
+
+clogi:Location_IfcProjectionElementTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcProjectionElementTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcPropertyEnumeration_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "EnumerationValues" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute EnumerationValues type" .
+
+clogi:Location_IfcPropertyTableValue_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "DefiningValues" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute DefiningValues type" .
+
+clogi:Location_IfcProxy_1 a clog:DeprecatedChangeLoc ;
+    rdfs:comment "deprecated" .
+
+clogi:Location_IfcReferentTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcReferent_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcReinforcingBarTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcRelCoversSpaces_1 a clog:DeprecatedChangeLoc ;
+    rdfs:comment "deprecated" .
+
+clogi:Location_IfcRelInterferesElements_1 a clog:WhereRuleChangeLoc ;
+    rdfs:comment "where rule" .
+
+clogi:Location_IfcRelInterferesElements_2 a clog:WhereRuleChangeLoc ;
+    rdfs:comment "where rule" .
+
+clogi:Location_IfcRelPositions_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcResourceObjectSelect_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcSectionedSolidHorizontal_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcSectionedSolid_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcShapeAspect_1 a clog:InverseAttributeChangeLoc ;
+    rdfs:comment "inverse attribute" .
+
+clogi:Location_IfcSlabTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcSlabTypeEnum_2 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcSlabTypeEnum_3 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcSlabTypeEnum_4 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcStructuralLoadConfiguration_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "Locations" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute Locations type" .
+
+clogi:Location_IfcSurfaceFeatureTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcTendonConduitTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcTendonConduitType_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcTendonConduit_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcTransitionCurveSegment2D_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcTransitionCurveType_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcTriangulatedIrregularNetwork_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcTypeProduct_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "RepresentationMaps" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute RepresentationMaps type" .
+
+clogi:Location_IfcVibrationDamperTypeEnum_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcVibrationDamperType_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcVibrationDamper_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_IfcVibrationIsolatorTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_IfcVirtualGridIntersection_1 a clog:DirectAttributeChangeLoc ;
+    rdfs:label "IntersectingAxes" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute IntersectingAxes type" .
+
+clogi:Location_IfcWallTypeEnum_1 a clog:ItemChangeLoc ;
+    rdfs:comment "item" .
+
+clogi:Location_Pset_ActuatorTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Application" ;
+    rdfs:comment "property Application" .
+
+clogi:Location_Pset_ActuatorTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:label "FailPosition" ;
+    rdfs:comment "property FailPosition" .
+
+clogi:Location_Pset_ActuatorTypeCommon_3 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_AirToAirHeatRecoveryTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_AirToAirHeatRecoveryTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_BeamCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_BearingCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_BridgeCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_CivilElementCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_CoilTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_CondenserTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_CooledBeamTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "IntegratedLightingType" ;
+    rdfs:comment "property IntegratedLightingType" .
+
+clogi:Location_Pset_CooledBeamTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:label "PipeConnection" ;
+    rdfs:comment "property PipeConnection" .
+
+clogi:Location_Pset_CooledBeamTypeCommon_3 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_CooledBeamTypeCommon_4 a clog:PropertyChangeLoc ;
+    rdfs:label "WaterFlowControlSystemType" ;
+    rdfs:comment "property WaterFlowControlSystemType" .
+
+clogi:Location_Pset_DistributionPortTypeCable_1 a clog:PropertyChangeLoc ;
+    rdfs:label "ConductorFunction" ;
+    rdfs:comment "property ConductorFunction" .
+
+clogi:Location_Pset_DistributionPortTypeCable_2 a clog:PropertyChangeLoc ;
+    rdfs:label "ConnectionGender" ;
+    rdfs:comment "property ConnectionGender" .
+
+clogi:Location_Pset_ElectricFlowStorageDevicePHistory_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_3 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_ElectricFlowStorageDeviceTypeCommon_4 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_ElectricalDeviceCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "InsulationStandardClass" ;
+    rdfs:comment "property InsulationStandardClass" .
+
+clogi:Location_Pset_ElementAssemblyCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_ElementComponentCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "CorrosionTreatment" ;
+    rdfs:comment "property CorrosionTreatment" .
+
+clogi:Location_Pset_ElementComponentCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:label "DeliveryType" ;
+    rdfs:comment "property DeliveryType" .
+
+clogi:Location_Pset_FurnitureTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_LampTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "LampBallastType" ;
+    rdfs:comment "property LampBallastType" .
+
+clogi:Location_Pset_LampTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:label "LampCompensationType" ;
+    rdfs:comment "property LampCompensationType" .
+
+clogi:Location_Pset_MechanicalFastenerCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_PileCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_ReinforcingBarCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_ReinforcingMeshCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_SanitaryTerminalTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_SensorTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_SolarDeviceTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_SolarDeviceTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_SolarDeviceTypeCommon_3 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_TankOccurrence_1 a clog:PropertyChangeLoc ;
+    rdfs:label "TankComposition" ;
+    rdfs:comment "property TankComposition" .
+
+clogi:Location_Pset_TankPHistory_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_TendonAnchorCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_TendonCommon_1 a clog:UndefinedChangeLoc ;
+    rdfs:comment "" .
+
+clogi:Location_Pset_TransformerTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_TransformerTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:comment "property" .
+
+clogi:Location_Pset_ValveTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Location_Pset_ValveTypeCommon_2 a clog:PropertyChangeLoc ;
+    rdfs:label "ValveMechanism" ;
+    rdfs:comment "property ValveMechanism" .
+
+clogi:Location_Pset_ValveTypeCommon_3 a clog:PropertyChangeLoc ;
+    rdfs:label "ValveOperation" ;
+    rdfs:comment "property ValveOperation" .
+
+clogi:Location_Pset_VibrationIsolatorTypeCommon_1 a clog:PropertyChangeLoc ;
+    rdfs:label "Status" ;
+    rdfs:comment "property Status" .
+
+clogi:Update_IfcBuildingStorey_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i><a href="lexical/IfcSpatialStructureElement.htm">IfcSpatialStructureElement</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcFacilityPart.htm">IfcFacilityPart</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcBuildingStorey_1 .
+
+clogi:Update_IfcBuilding_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i><a href="lexical/IfcSpatialStructureElement.htm">IfcSpatialStructureElement</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcFacility.htm">IfcFacility</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcBuilding_1 .
+
+clogi:Update_IfcCurveDim_1 a clog:Update ;
+    clog:description "" ;
+    clog:hasLocation clogi:Location_IfcCurveDim_1 .
+
+clogi:Update_IfcFaceBasedSurfaceModel_1 a clog:Update ;
+    clog:description "Is no longer deprecated" ;
+    clog:hasLocation clogi:Location_IfcFaceBasedSurfaceModel_1 .
+
+clogi:Update_IfcGrid_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcGrid_1 .
+
+clogi:Update_IfcGrid_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcGrid_2 .
+
+clogi:Update_IfcGrid_3 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i><a href="lexical/IfcProduct.htm">IfcProduct</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcPositioningElement.htm">IfcPositioningElement</a></i></div>""",
+        """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcGrid_3 .
+
+clogi:Update_IfcIndexedPolygonalFaceWithVoids_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of list[3:?] of unique <a href="lexical/IfcPositiveInteger.htm">IfcPositiveInteger</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of list[3:?] of <a href="lexical/IfcPositiveInteger.htm">IfcPositiveInteger</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcIndexedPolygonalFaceWithVoids_1 .
+
+clogi:Update_IfcLinearPlacement_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>PlacementRelTo</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>PlacementMeasuredAlong</i></div>""" ;
+    clog:hasLocation clogi:Location_IfcLinearPlacement_1 .
+
+clogi:Update_IfcLinearPositioningElement_1 a clog:Update ;
+    clog:description "Is no longer abstract" ;
+    clog:hasLocation clogi:Location_IfcLinearPositioningElement_1 .
+
+clogi:Update_IfcMaterialClassificationRelationship_1 a clog:Update ;
+    clog:description "Is no longer deprecated" ;
+    clog:hasLocation clogi:Location_IfcMaterialClassificationRelationship_1 .
+
+clogi:Update_IfcMaterialList_1 a clog:Update ;
+    clog:description "Is no longer deprecated" ;
+    clog:hasLocation clogi:Location_IfcMaterialList_1 .
+
+clogi:Update_IfcOffsetCurve2D_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i><a href="lexical/IfcCurve.htm">IfcCurve</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcOffsetCurve.htm">IfcOffsetCurve</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcOffsetCurve2D_2 .
+
+clogi:Update_IfcOffsetCurve3D_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i><a href="lexical/IfcCurve.htm">IfcCurve</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcOffsetCurve.htm">IfcOffsetCurve</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcOffsetCurve3D_2 .
+
+clogi:Update_IfcPath_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcOrientedEdge.htm">IfcOrientedEdge</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcOrientedEdge.htm">IfcOrientedEdge</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcPath_1 .
+
+clogi:Update_IfcPileType_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>IfcBuildingElementType</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcDeepFoundationType.htm">IfcDeepFoundationType</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcPileType_1 .
+
+clogi:Update_IfcPile_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>IfcBuildingElement</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i><a href="lexical/IfcDeepFoundation.htm">IfcDeepFoundation</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcPile_1 .
+
+clogi:Update_IfcPolyLoop_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[3:?] of unique <a href="lexical/IfcCartesianPoint.htm">IfcCartesianPoint</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[3:?] of <a href="lexical/IfcCartesianPoint.htm">IfcCartesianPoint</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcPolyLoop_1 .
+
+clogi:Update_IfcPresentationStyleAssignment_1 a clog:Update ;
+    clog:description "Is no longer deprecated" ;
+    clog:hasLocation clogi:Location_IfcPresentationStyleAssignment_1 .
+
+clogi:Update_IfcPropertyEnumeration_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcValue.htm">IfcValue</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcValue.htm">IfcValue</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcPropertyEnumeration_1 .
+
+clogi:Update_IfcPropertyTableValue_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcValue.htm">IfcValue</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcValue.htm">IfcValue</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcPropertyTableValue_1 .
+
+clogi:Update_IfcProxy_1 a clog:Update ;
+    clog:description "Is no longer deprecated" ;
+    clog:hasLocation clogi:Location_IfcProxy_1 .
+
+clogi:Update_IfcRelCoversSpaces_1 a clog:Update ;
+    clog:description "Is no longer deprecated" ;
+    clog:hasLocation clogi:Location_IfcRelCoversSpaces_1 .
+
+clogi:Update_IfcStructuralLoadConfiguration_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique list[1:2] of <a href="lexical/IfcLengthMeasure.htm">IfcLengthMeasure</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of list[1:2] of <a href="lexical/IfcLengthMeasure.htm">IfcLengthMeasure</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcStructuralLoadConfiguration_1 .
+
+clogi:Update_IfcTypeProduct_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[1:?] of unique <a href="lexical/IfcRepresentationMap.htm">IfcRepresentationMap</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[1:?] of <a href="lexical/IfcRepresentationMap.htm">IfcRepresentationMap</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcTypeProduct_1 .
+
+clogi:Update_IfcVirtualGridIntersection_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>list[2:2] of unique <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>list[2:2] of <a href="lexical/IfcGridAxis.htm">IfcGridAxis</a></i></div>""" ;
+    clog:hasLocation clogi:Location_IfcVirtualGridIntersection_1 .
+
+clogi:Update_Pset_ActuatorTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated <a href="lexical/PEnum_ActuatorApplication.htm">PEnum_ActuatorApplication</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated invalid</i></div>""",
+        """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ActuatorApplication.htm">PEnum_ActuatorApplication</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ActuatorTypeCommon_1 .
+
+clogi:Update_Pset_ActuatorTypeCommon_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated <a href="lexical/PEnum_FailPosition.htm">PEnum_FailPosition</a></i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated invalid</i></div>""",
+        """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_FailPosition.htm">PEnum_FailPosition</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ActuatorTypeCommon_2 .
+
+clogi:Update_Pset_ActuatorTypeCommon_3 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ActuatorTypeCommon_3 .
+
+clogi:Update_Pset_BeamCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_BeamCommon_1 .
+
+clogi:Update_Pset_CivilElementCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CivilElementCommon_1 .
+
+clogi:Update_Pset_CoilTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CoilTypeCommon_1 .
+
+clogi:Update_Pset_CondenserTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CondenserTypeCommon_1 .
+
+clogi:Update_Pset_CooledBeamTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_CooledBeamIntegratedLightingType.htm">PEnum_CooledBeamIntegratedLightingType</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CooledBeamTypeCommon_1 .
+
+clogi:Update_Pset_CooledBeamTypeCommon_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_CooledBeamPipeConnection.htm">PEnum_CooledBeamPipeConnection</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CooledBeamTypeCommon_2 .
+
+clogi:Update_Pset_CooledBeamTypeCommon_3 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CooledBeamTypeCommon_3 .
+
+clogi:Update_Pset_CooledBeamTypeCommon_4 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_CooledBeamWaterFlowControlSystemType.htm">PEnum_CooledBeamWaterFlowControlSystemType</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_CooledBeamTypeCommon_4 .
+
+clogi:Update_Pset_DistributionPortTypeCable_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ConductorFunctionEnum.htm">PEnum_ConductorFunctionEnum</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_DistributionPortTypeCable_1 .
+
+clogi:Update_Pset_DistributionPortTypeCable_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_DistributionPortGender.htm">PEnum_DistributionPortGender</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_DistributionPortTypeCable_2 .
+
+clogi:Update_Pset_ElectricalDeviceCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_InsulationStandardClass.htm">PEnum_InsulationStandardClass</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ElectricalDeviceCommon_1 .
+
+clogi:Update_Pset_ElementAssemblyCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ElementAssemblyCommon_1 .
+
+clogi:Update_Pset_ElementComponentCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementComponentCorrosionTreatment.htm">PEnum_ElementComponentCorrosionTreatment</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ElementComponentCommon_1 .
+
+clogi:Update_Pset_ElementComponentCommon_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementComponentDeliveryType.htm">PEnum_ElementComponentDeliveryType</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ElementComponentCommon_2 .
+
+clogi:Update_Pset_FurnitureTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_FurnitureTypeCommon_1 .
+
+clogi:Update_Pset_LampTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_LampBallastType.htm">PEnum_LampBallastType</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_LampTypeCommon_1 .
+
+clogi:Update_Pset_LampTypeCommon_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_LampCompensationType.htm">PEnum_LampCompensationType</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_LampTypeCommon_2 .
+
+clogi:Update_Pset_PileCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_PileCommon_1 .
+
+clogi:Update_Pset_SanitaryTerminalTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_SanitaryTerminalTypeCommon_1 .
+
+clogi:Update_Pset_SensorTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_SensorTypeCommon_1 .
+
+clogi:Update_Pset_SolarDeviceTypeCommon_3 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_SolarDeviceTypeCommon_3 .
+
+clogi:Update_Pset_TankOccurrence_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_TankComposition.htm">PEnum_TankComposition</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_TankOccurrence_1 .
+
+clogi:Update_Pset_ValveTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ValveTypeCommon_1 .
+
+clogi:Update_Pset_ValveTypeCommon_2 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ValveMechanism.htm">PEnum_ValveMechanism</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ValveTypeCommon_2 .
+
+clogi:Update_Pset_ValveTypeCommon_3 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ValveOperation.htm">PEnum_ValveOperation</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_ValveTypeCommon_3 .
+
+clogi:Update_Pset_VibrationIsolatorTypeCommon_1 a clog:Update ;
+    clog:description """<div><span>Changed from </span><i>enumerated invalid</i></div>
+<div><span style="display:inline-block; width:0px; white-space: nowrap;">to</span><span style="visibility: hidden">Changed from </span><i>enumerated <a href="lexical/PEnum_ElementStatus.htm">PEnum_ElementStatus</a></i></div>""" ;
+    clog:hasLocation clogi:Location_Pset_VibrationIsolatorTypeCommon_1 .
+
+clog:AbstractChangeLoc a owl:Class ;
+    rdfs:label "AbstractChangeLocation" ;
+    rdfs:comment "AbstractChangeLocation is a class that represents the abstract location of a change." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:EnumChangeLocation a owl:Class ;
+    rdfs:label "EnumChangeLocation" ;
+    rdfs:comment "EnumChangeLocation is a class that represents the change location of an enumeration." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:hasChange a owl:ObjectProperty ;
+    rdfs:label "hasChange" ;
+    rdfs:comment "hasChange is a property that represents the change of a concept." ;
+    rdfs:domain clog:SchematicConcept ;
+    rdfs:range clog:BaseChange .
+
+clog:hasLocation a owl:ObjectProperty ;
+    rdfs:label "hasLocation" ;
+    rdfs:comment "hasLocation is a property that represents the location of a change." ;
+    rdfs:domain clog:BaseChange ;
+    rdfs:range clog:ChangeLocation .
+
+clogi:Location_IfcGrid_1 a clog:DirectAttributeChangeLoc,
+        clog:InverseAttributeChangeLoc ;
+    rdfs:label "UAxes" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute UAxes type",
+        "inverse attribute" .
+
+clogi:Location_IfcGrid_2 a clog:DirectAttributeChangeLoc,
+        clog:WhereRuleChangeLoc ;
+    rdfs:label "VAxes" ;
+    clog:changed "type" ;
+    rdfs:comment "attribute VAxes type",
+        "where rule" .
+
+clogi:Location_IfcLinearPlacement_1 a clog:DirectAttributeChangeLoc,
+        clog:UndefinedChangeLoc ;
+    rdfs:label "PlacementRelTo" ;
+    clog:changed "name" ;
+    rdfs:comment "",
+        "attribute PlacementRelTo name" .
+
+clogi:Location_IfcLinearPositioningElement_1 a clog:AbstractChangeLoc,
+        clog:UndefinedChangeLoc ;
+    rdfs:comment "",
+        "abstract" .
+
+clog:PSetChangeLocation a owl:Class ;
+    rdfs:label "PSetChangeLocation" ;
+    rdfs:comment "PSetChangeLocation is a class that represents the change location of a property set template." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:WhereRuleChangeLoc a owl:Class ;
+    rdfs:label "WhereRuleChangeLocation" ;
+    rdfs:comment "WhereRuleChangeLocation is a class that represents the location of a change in a where rule." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:DeprecatedChangeLoc a owl:Class ;
+    rdfs:label "DeprecatedChangeLocation" ;
+    rdfs:comment "DeprecatedChangeLocation is a class that represents the location of a change in a deprecated element." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:EntityChangeLocation a owl:Class ;
+    rdfs:label "EntityChangeLocation" ;
+    rdfs:comment "EntityChangeLocation is a class that represents the change location of an entity." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:InverseAttributeChangeLoc a owl:Class ;
+    rdfs:label "InverseAttributeChangeLocation" ;
+    rdfs:comment "InverseAttributeChangeLocation is a class that represents the location of a change in an inverse attribute." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:SupertypeChangeLoc a owl:Class ;
+    rdfs:label "SupertypeChangeLocation" ;
+    rdfs:comment "SupertypeChangeLocation is a class that represents the location of a change in a supertype." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:ChangeLocation a owl:Class ;
+    rdfs:label "ChangeLocation" ;
+    rdfs:comment "ChangeLocation is a class that represents the location of a change." .
+
+clog:BaseChange a owl:Class ;
+    rdfs:label "BaseChange" ;
+    rdfs:comment "BaseChange is the base class for all changes." .
+
+clog:DirectAttributeChangeLoc a owl:Class ;
+    rdfs:label "DirectAttributeChangeLocation" ;
+    rdfs:comment "DirectAttributeChangeLocation is a class that represents the location of a change in an attribute." ;
+    rdfs:subClassOf clog:EntityChangeLocation .
+
+clog:Delete a owl:Class ;
+    rdfs:label "Delete" ;
+    clog:data_feather "x-square" ;
+    rdfs:comment "Delete is a change that removes an element from the ontology." ;
+    rdfs:subClassOf clog:BaseChange .
+
+clog:PropertyChangeLoc a owl:Class ;
+    rdfs:label "PropertyChangeLocation" ;
+    rdfs:comment "PropertyChangeLocation is a class that represents the location of a change in a property." ;
+    rdfs:subClassOf clog:PSetChangeLocation .
+
+clog:ItemChangeLoc a owl:Class ;
+    rdfs:label "ItemChangeLocation" ;
+    rdfs:comment "ItemChangeLocation is a class that represents the location of a change in an item." ;
+    rdfs:subClassOf clog:EnumChangeLocation .
+
+clog:Update a owl:Class ;
+    rdfs:label "Update" ;
+    clog:data_feather "edit" ;
+    rdfs:comment "Update is a change that modifies an element in the ontology." ;
+    rdfs:subClassOf clog:BaseChange .
+
+clog:UndefinedChangeLoc a owl:Class ;
+    rdfs:label "UndefinedChangeLocation" ;
+    rdfs:comment "UndefinedChangeLocation is a class that represents the location of a change that is not defined." ;
+    rdfs:subClassOf clog:ChangeLocation .
+
+clog:Create a owl:Class ;
+    rdfs:label "Create" ;
+    clog:data_feather "plus-square" ;
+    rdfs:comment "Create is a change that adds a new element to the ontology." ;
+    rdfs:subClassOf clog:BaseChange .
+
+clog:SchematicConcept a owl:Class ;
+    rdfs:label "Concept" ;
+    rdfs:comment "Concept is a class that represents a concept in the ontology." .
+
