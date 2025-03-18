@@ -62,6 +62,7 @@ def instantiation(filepath, G: Graph):
     with open(filepath, "r") as f:
         data = json.load(f)
     filename = os.path.splitext(os.path.basename(filepath))[0]
+    print(f"Processing {filename}")
     for concept_name, concept_data in tqdm(data.items()):
         concept = CHANGE_LOG_INST[concept_name]
         G.add((concept, RDF.type, CHANGE_LOG.SchematicConcept))
@@ -96,13 +97,12 @@ def instantiation(filepath, G: Graph):
     G.serialize(destination=os.path.join(output_dir, f"{filename}.ttl"), format="turtle")
 
 # %%
-G = Graph()
-bind_prefixes(G)
-G.parse("./change_log_ontology.ttl", format="turtle")
-
 source_dir = "./outputs/change_log_jsons/"
-
 for filename in os.listdir(source_dir):
+    G = Graph()
+    bind_prefixes(G)
+    G.parse("./change_log_ontology.ttl", format="turtle")
+
     filepath = os.path.join(source_dir, filename)
     if os.path.isfile(filepath):
         instantiation(filepath, G)
